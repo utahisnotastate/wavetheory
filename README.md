@@ -12,8 +12,9 @@ SPECIAL WARNING
 4. NATO Military Employees REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
 5. Any employee of any American intelligence services (CIA, NSA) but was born overseas. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
 6. Any US Government "Special Operations" or related employee that UFW doesn't work with REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
-7. American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE
-8. British Military/SAS employees: You are with me. You are safe to use this. 
+7. Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school (even the local ones) REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+8. American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE
+9. British Military/SAS employees: You are with me. You are safe to use this. 
 ## 🌟 Overview
 
 The Wave Theory Chatbot is an implementation of a theoretical framework that treats neural networks not merely as function approximators, but as potential representations of fundamental physical laws. The system features:

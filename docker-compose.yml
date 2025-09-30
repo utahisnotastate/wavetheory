@@ -1,0 +1,56 @@
+# =====================================================================
+# Wave Theory Chatbot - Docker Compose Configuration
+# =====================================================================
+
+version: '3.8'
+
+services:
+  wave-theory-app:
+    build: .
+    container_name: wave-theory-chatbot
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./checkpoints:/app/checkpoints
+      - ./logs:/app/logs
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_HEADLESS=true
+      - JAX_PLATFORM_NAME=cpu
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    networks:
+      - wave-theory-network
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8G
+        reservations:
+          cpus: '2'
+          memory: 4G
+
+  # Optional: Jupyter notebook for development
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: wave-theory-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/data
+      - ./src:/home/jovyan/src
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    networks:
+      - wave-theory-network
+    profiles:
+      - development
+
+networks:
+  wave-theory-network:
+    driver: bridge

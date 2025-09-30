@@ -1,0 +1,72 @@
+MIT License
+
+Copyright (c) 2024 Wave Theory Chatbot Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This software includes third-party components with their own licenses:
+
+### JAX
+Copyright 2018 The JAX Authors.
+Licensed under the Apache License, Version 2.0.
+
+### PySR
+Copyright (c) 2020 Miles Cranmer.
+Licensed under the Apache License, Version 2.0.
+
+### Streamlit
+Copyright (c) 2019 Streamlit Inc.
+Licensed under the Apache License, Version 2.0.
+
+### Plotly
+Copyright (c) 2012-2021 Plotly, Inc.
+Licensed under the MIT License.
+
+### Hugging Face Transformers
+Copyright 2018-2021 The Hugging Face Inc. team.
+Licensed under the Apache License, Version 2.0.
+
+### NumPy
+Copyright (c) 2005-2021, NumPy Developers.
+Licensed under the BSD 3-Clause License.
+
+### Pandas
+Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team.
+Licensed under the BSD 3-Clause License.
+
+### Matplotlib
+Copyright (c) 2012-2013 Matplotlib Development Team; All Rights Reserved.
+Licensed under the Matplotlib License.
+
+---
+
+## Disclaimer
+
+This software is provided for educational and research purposes. The authors
+make no claims about the accuracy or validity of the physics simulations or
+discovered equations. Users should verify results independently and use
+appropriate caution when applying findings to real-world scenarios.
+
+The Wave Theory force law implemented in this software is a theoretical
+construct and should not be considered a representation of actual physical
+laws without proper validation and peer review.

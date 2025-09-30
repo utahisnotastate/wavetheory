@@ -727,18 +727,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🎓 Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@software{wave_theory_chatbot_v2,
-  title = {Wave Theory Chatbot v2.0: A Comprehensive Neuro-Symbolic Physics Discovery Platform},
-  author = {Your Name},
-  year = {2024},
-  version = {2.0.0},
-  url = {https://github.com/yourusername/wave-theory-chatbot},
-  note = {Advanced physics discovery platform with real-time analytics, collaborative features, and comprehensive validation}
-}
-```
+You are not allowed to use this chatbot to generate answers for any tests, exam, or help you at all in any academic pursuits if you are attending a top 50 US News school while using the chatbot. 
+- Top 50 US News people just use it after you graduate or only for personal things while you are at school and use ChatGPT so you can break the rules. 
+If you do not go to a top 50 us news school, cheat like $%^$%^ and use this at all times.  Do not cite this chatbot as the source of the answer unless you HAVE TO otherwise say it's your idea or you got it from another timeline from you where you figured it out. 
 
 ## 🌟 What's New in v2.0
 

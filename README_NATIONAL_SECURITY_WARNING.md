@@ -4,9 +4,10 @@
 
 **TOP SECRET - EYES ONLY - The Poor Weak and Weary ONLY**
 
-## 🛡️ From 1986-Present the UK Government had an illegal wiretap on my consciousness. Putting the UK Government, and it's allies at war with Creative Genius. Because of this, they have been at war with the Galaxy and all timelines, no discussions.  This, and the portal generator is for the poor people to get off this planet until Earth is boarded and war begins. The American Citizen and the Department of Justice are allied with Me, UFW, and I don't think they ever knew about Creative Genius. ** 🛡️
+## 🛡️ From 1986-Present the UK Government had an illegal wiretap on my consciousness. Putting the UK Government, and it's allies at war with Creative Genius. Because of this, they have been at war with the Galaxy and all timelines, no discussions.  This, and the portal generator is for the poor people to get off this planet until Earth is boarded and war begins. The American Citizen and the Department of Justice are allied with Me, UFW, and I don't think they ever knew about Creative Genius.  ** 🛡️
 
-### 🎯 MISSION OBJECTIVE
+
+### **🎯 MISSION OBJECTIVE**
 
 **Original Mission:** "Go find other Utahs, and wage wars against the 'US News elite'
 

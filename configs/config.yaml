@@ -13,6 +13,14 @@ physics:
     G: 1.0
     wave_frequency: 0.5
     decay_length: 10.0
+  lighthouse_model:
+    enabled: false
+    lf_frequency_hz: 1.1e12   # ~THz
+    blink_tau: 1e-17          # transition sharpness
+    blink_duty: 0.5
+    G_amp: 0.0                # amplitude of G modulation
+    phi: 0.0
+    c_drift_per_year: 0.0
   simulation:
     dt: 0.01
     max_particles: 100

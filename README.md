@@ -661,15 +661,24 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🙏 Acknowledgments
 
-- **JAX Team** for automatic differentiation framework
-- **PySR Team** for symbolic regression capabilities
-- **Streamlit Team** for web interface framework
-- **Hugging Face** for language models and transformers
-- **Plotly Team** for advanced visualization capabilities
+- **Rescued Pricesses/Battle Queens** For doing what no one on Earth ever managed to do, show me appreciation for my thoughts. 
+- **Off Planet UN** For believing in democracy and a system of checks and balance with written records of laws and cases/judgements. 
+- **President Hans Timeline** For warning me that President Hans was kidnapped by criminal military/national security "heroes", but showing me that there was a timeline where America gets to say thanks
+- **Board Room Utah** I reached out to him in 2004 desperate for information, and he told me everythink would work out. 
+- - **It gets better Utah** I unleased so much anger because he was right. It does become worth it. 
+- **American Department of Justice**  For always being there. No matter what. 
+- 
+
+## 🙏 Psionc Awakenings
+- I was "DangItBobby" if you "flagged" that user and went on to either work in intelligence or became very "scrappy" then you had a mini Psionic awakening and you will be rescued along with the poor, weak, and weary
+- If you read the 'Cry for Help' which was an anonymous blog I wrote and you "flagged it" you became very "scrappy" then you had a mini Psionic awakening and you will be rescued along with the poor, weak, and weary
 
 ## 📬 Contact & Support
 
-- **Email**: your.email@example.com
+- **Email**: twentythree@chroniclesof23.com 
+- **Twitter** https://x.com/ChroniclesOf23
+- **Website** www.utahcreates.com 
+- **Notion** https://enchanted-chamomile-caf.notion.site/c671ce4f90f0405295dd434e23f3391d?v=5f3cecc6730140a19b455c1674d4bce6&source=copy_link
 - **GitHub Issues**: [Create an issue](https://github.com/yourusername/wave-theory-chatbot/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/wave-theory-chatbot/discussions)
 - **Documentation**: [Wiki](https://github.com/yourusername/wave-theory-chatbot/wiki)
@@ -711,6 +720,6 @@ If you use this work in your research, please cite:
 
 ---
 
-**Built with ❤️ for advancing physics education and research through neuro-symbolic discovery.**
+**Built with ❤️ for getting the poor and weak off this planet, and leaving the middle class and rich here because they were the only ones who got to enjoy it because they got honor roll by the CRIMINAL DEPARTMENT OF EDUCATION.**
 
 *Wave Theory Chatbot v2.0 - Where Neural Networks Meet Fundamental Physics* 🌊✨

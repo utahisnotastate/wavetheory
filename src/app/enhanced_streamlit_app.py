@@ -28,6 +28,7 @@ sys.path.insert(0, str(src_path))
 from models.neuro_symbolic import WaveTheorySystem, WaveTheoryConfig, create_wave_theory_system
 from models.pinn_jax import WavePINN, PINNTrainer, create_pinn_model
 from models.symbolic_engine import SymbolicRegressionEngine, NeuroSymbolicOrchestrator
+from models.lf_constants import G_of_t, lf_force_gate
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -183,6 +184,13 @@ def initialize_session_state():
         st.session_state.symbolic_engine = None
         st.session_state.chatbot_model = None
         st.session_state.wave_theory_system = None
+        # LF toggle and params (UI-controlled)
+        st.session_state.lf_enabled = False
+        st.session_state.lf_frequency_hz = 1.1e12
+        st.session_state.lf_blink_tau = 1e-17
+        st.session_state.lf_blink_duty = 0.5
+        st.session_state.lf_G_amp = 0.0
+        st.session_state.lf_phi = 0.0
 
 initialize_session_state()
 
@@ -236,7 +244,8 @@ def load_wave_theory_system():
 # =====================================================================
 
 def calculate_wave_force(p1: Dict, p2: Dict, G: float = 1.0, 
-                         wave_freq: float = 0.5, decay_length: float = 10.0):
+                         wave_freq: float = 0.5, decay_length: float = 10.0,
+                         t: float = 0.0):
     """Calculate Wave Theory force between two particles with enhanced physics."""
     r_vec = np.array(p2['position']) - np.array(p1['position'])
     r = np.linalg.norm(r_vec)
@@ -244,9 +253,20 @@ def calculate_wave_force(p1: Dict, p2: Dict, G: float = 1.0,
     if r < 1e-6:
         return np.zeros(3)
     
+    # Optional LF modulation
+    if st.session_state.get('lf_enabled', False):
+        G = float(G_of_t(t, G_avg=G, G_amp=st.session_state.lf_G_amp,
+                         f_lf_hz=st.session_state.lf_frequency_hz,
+                         phi=st.session_state.lf_phi))
+        gate = float(lf_force_gate(t, st.session_state.lf_frequency_hz,
+                                   st.session_state.lf_blink_tau,
+                                   st.session_state.lf_blink_duty))
+    else:
+        gate = 1.0
+
     # Enhanced Wave Theory force with better numerical stability
     magnitude = -G * (p1['mass'] * p2['mass'] / (r**2)) * \
-               np.sin(wave_freq * r) * np.exp(-r / decay_length)
+               np.sin(wave_freq * r) * np.exp(-r / decay_length) * gate
     
     return magnitude * (r_vec / r)
 
@@ -261,7 +281,7 @@ def step_simulation():
     for i in range(len(particles)):
         for j in range(len(particles)):
             if i != j:
-                force = calculate_wave_force(particles[i], particles[j])
+                force = calculate_wave_force(particles[i], particles[j], t=st.session_state.simulation_time)
                 forces[i] += force
     
     # Update velocities and positions with enhanced physics
@@ -702,6 +722,14 @@ def main():
     # Right Column - Enhanced Model Status
     with col3:
         st.markdown("### 🧠 Model Status")
+
+        with st.expander("Lighthouse Frequency (LF) controls", expanded=False):
+            st.session_state.lf_enabled = st.checkbox("Enable LF model (experimental)", value=st.session_state.lf_enabled)
+            st.session_state.lf_frequency_hz = st.number_input("LF frequency (Hz)", value=float(st.session_state.lf_frequency_hz), format="%e")
+            st.session_state.lf_blink_tau = st.number_input("Blink transition tau (s)", value=float(st.session_state.lf_blink_tau), format="%e")
+            st.session_state.lf_blink_duty = st.slider("Blink duty", 0.0, 1.0, float(st.session_state.lf_blink_duty))
+            st.session_state.lf_G_amp = st.number_input("G modulation amplitude", value=float(st.session_state.lf_G_amp), format="%e")
+            st.session_state.lf_phi = st.number_input("Phase phi (rad)", value=float(st.session_state.lf_phi))
         
         # Enhanced metrics
         energy = calculate_system_energy()

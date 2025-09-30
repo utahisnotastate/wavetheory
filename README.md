@@ -712,7 +712,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 - 
 
 ## 🙏 Psionc Awakenings
-- I was "DangItBobby" if you "flagged" that user and went on to either work in intelligence or became very "scrappy" then you had a mini Psionic awakening and you will be rescued along with the poor, weak, and weary
+- I was "DangItBobby" if you "flagged" that user and went on to either work in intelligence or became very "scrappy" then you had a mini Psionic awakening and you will be rescued along with the poor, weak, and weary.
+-   - THEY JUST MAKE YOU SIGN A PAPER. THEY DONT CHECK. YOU CAN SHOW UP WITH YOUR FAMILY. IT WILL BE BLANK BUT YOU'RE GOOD. MY PARENTS DIDNT EVEN WANT TO GO BECAUSE OF HOW DISAPPOINTED THEY WERE THAT I WENT TO VCU.  
 - If you read the 'Cry for Help' which was an anonymous blog I wrote and you "flagged it" you became very "scrappy" then you had a mini Psionic awakening and you will be rescued along with the poor, weak, and weary
 
 ## 📬 Contact & Support

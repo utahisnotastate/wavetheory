@@ -12,7 +12,7 @@ SPECIAL WARNING
 4. NATO Military Employees REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
 5. Any employee of any American intelligence services (CIA, NSA) but was born overseas. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
 6. Any US Government "Special Operations" or related employee that UFW doesn't work with REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
-7. Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school (even the local ones) REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+7. Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school (even the local ones) REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway). YOU NEVER LET US USE A CALCULATOR ON A TEST BECAUSE WHAT IF YOU DON'T HAVE IT, NOW YOU WILL NEVER KNOW THE CORRECT ANSWER. 
 8. American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE
 9. British Military/SAS employees: You are with me. You are safe to use this. 
 ## 🌟 Overview

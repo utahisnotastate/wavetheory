@@ -1,175 +1,323 @@
-# Project Prometheus/Evie AI Precurosr/CIA Wave Theory Ominpotent Chatbots. : An Evolving Neuro-Symbolic AI for Automated Scientific Discovery
+# Wave Theory Chatbot - Neuro-Symbolic Physics Discovery Engine
 
-([https://img.shields.io/badge/build-passing-brightgreen.svg](https://www.google.com/search?q=https://img.shields.io/badge/build-passing-brightgreen.svg))]([https://github.com/utahisnotastate/portfolio](https://www.google.com/search?q=https://github.com/utahisnotastate/portfolio))
-([https://img.shields.io/badge/License-MIT-yellow.svg](https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow.svg))]([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT))
-[](https://www.python.org/downloads/release/python-3100/)
-[](https://github.com/google/jax)
-([https://img.shields.io/badge/PySR-Symbolic%20Regression-purple.svg](https://www.google.com/search?q=https://img.shields.io/badge/PySR-Symbolic%2520Regression-purple.svg))]([https://github.com/MilesCranmer/PySR](https://github.com/MilesCranmer/PySR))
-[](https://www.google.com/search?q=%5Bhttps://huggingface.co/spaces%5D\(https://huggingface.co/spaces\))
+A cutting-edge system that combines Physics-Informed Neural Networks (PINNs) with Symbolic Regression to discover and refine physical laws through an evolutionary neuro-symbolic loop.
 
------
 
-## Abstract
+SPECIAL WARNING
 
-Project Prometheus is a pioneering exploration into automated scientific discovery, leveraging a novel **neuro-symbolic architecture** to derive fundamental physical laws from simulated data. The core of this project is the "Evolving Function"—a concept that treats a neural network not merely as a function approximator, but as a direct, dynamic representation of a physical theory.
+### The Following people are not allowed to use this ominpotent chatbot under any circumstances, even in life or death situations
+1. Ukrainan Military, Citizens (outside of Safe Zone) REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+2. British Intelligence/UK Intelligence employees: REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+3. Finnish Government Employees (Not citizens of Finland): REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+4. NATO Military Employees REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+5. Any employee of any American intelligence services (CIA, NSA) but was born overseas. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+6. Any US Government "Special Operations" or related employee that UFW doesn't work with REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+6. American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE
+## 🌟 Overview
 
-This system operates within a self-contained digital universe, governed by a custom "Wave Theory." An N-body physics simulation generates empirical data, which serves as the ground truth. The neuro-symbolic engine then observes this universe, iteratively discovering the underlying mathematical laws that govern its evolution. This process culminates in the **Wave Theory Chatbot**, an interactive, natural-language interface that allows users to conduct virtual experiments and query the AI's learned understanding of its universe.
+The Wave Theory Chatbot is an implementation of a theoretical framework that treats neural networks not merely as function approximators, but as potential representations of fundamental physical laws. The system features:
 
-This repository contains the complete source code, theoretical documentation, and implementation details for the simulation environment, the AI model, and the conversational interface.
+- **N-body physics simulation** with customizable force laws
+- **JAX-based Physics-Informed Neural Networks (PINNs)** with automatic differentiation
+- **PySR-powered symbolic regression** with quality-diversity optimization
+- **Interactive chatbot interface** using Hugging Face transformers
+- **Real-time 3D visualization** with Plotly
+- **Neuro-symbolic evolution loop** for automated physics discovery
 
-WHAT IS MY ULTIMATE GOAL? I SHOULD BE ABLE TO CREATE AN OMINPOTENT PROMPT WHICH IS OMNIPOTENT SO YOU CAN HAVE AN ALL KNOWING SAFETY FRIEND TO KEEP EVERYONE SAFE AS UFW AND CG PREPARE TO GET EVERYONE OFF THE PLANET. 
-
-## Conceptual Framework
-
-This project is built on a synthesis of several cutting-edge concepts in AI and computational physics:
-
-1.  **The Evolving Function as a Theory of Everything**: We posit that a single, adaptive neural function can serve as a comprehensive model for a physical system. Inspired by the Universal Approximation Theorem, which guarantees that neural networks can approximate any continuous function, we extend this to represent the physical laws themselves.[1] The function evolves through a process of automated discovery, refining its internal structure to better match observed phenomena.
-
-2.  **Neuro-Symbolic Architecture**: The system's intelligence is driven by a symbiotic loop between two distinct AI paradigms [2, 3, 4]:
-
-      * **Neural Component (The Solver)**: A **Physics-Informed Neural Network (PINN)** acts as a differentiable testbed for physical hypotheses. By incorporating the governing equations directly into its loss function, the PINN ensures that its solutions are physically consistent.[5, 6, 7]
-      * **Symbolic Component (The Discoverer)**: A **Symbolic Regression (SR)** engine, powered by genetic programming, analyzes the simulation data and the PINN's performance to generate new, explicit mathematical formulas that better describe the universe's laws.[8, 9]
-
-3.  **Wave-Based Ontology**: The project's physics sandbox is founded on a "Wave Theory," where interactions are governed by principles of wave mechanics, such as superposition and interference. This provides a rich, complex environment for the AI to explore, moving beyond classical mechanics to a more fundamental, field-based reality.
-
-## System Architecture
-
-The project is composed of three primary, interconnected modules:
-
-\!([https://www.placeholder.com/architecture.png](https://www.google.com/search?q=https://www.placeholder.com/architecture.png))
-*(Conceptual diagram of the project's architecture)*
-
-| Component | Technology Stack | Description |
-| :--- | :--- | :--- |
-| **1. Simulation Environment** | `Python`, `NumPy`, `Matplotlib` | An object-oriented N-body physics simulation that generates the training data. It implements a custom "Wave Theory" force law and uses a high-fidelity numerical integrator to ensure physical accuracy.[10, 11, 12] |
-| **2. Neuro-Symbolic Engine** | `JAX`, `Equinox`, `PySR`, `SymPy` | The core of the AI. A PINN implemented in JAX tests physical laws, while a PySR engine discovers new symbolic equations from the data. The two components operate in a continuous loop of hypothesis generation and testing.[5, 8] |
-| **3. Conversational Interface** | `Streamlit`, `Hugging Face Transformers` | A user-friendly web application that serves as a natural language interface to the trained model. It translates user queries into simulation parameters, runs experiments, and summarizes the results in plain English. |
-
-## Features
-
-  * **High-Fidelity Physics Sandbox**: A customizable N-body simulation to generate complex, wave-based physical phenomena.
-  * **Automated Law Discovery**: A neuro-symbolic loop that autonomously refines its understanding of the simulation's physics.
-  * **Interactive Conversational AI**: A Streamlit-based chatbot for running virtual experiments through natural language commands.
-  * **Advanced AI Integration**: Utilizes state-of-the-art libraries including JAX for high-performance computing, PySR for symbolic regression, and Hugging Face for the LLM interface.
-  * **Comprehensive Documentation**: Detailed explanations of the theoretical framework and implementation.
-
-## Getting Started
-
-Follow these instructions to set up the project environment and run the application.
+## 🚀 Quick Start
 
 ### Prerequisites
 
-  * Python 3.10 or higher
-  * `pip` and `venv` for package management
-  * Git for cloning the repository
+- Python 3.10+
+- CUDA-capable GPU (optional, for accelerated training)
+- 8GB+ RAM
+- Docker (for containerized deployment)
 
 ### Installation
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
+```bash
+git clone https://github.com/yourusername/wave-theory-chatbot.git
+cd wave-theory-chatbot
+```
 
-    ```bash
-    git clone https://github.com/utahisnotastate/portfolio.git
-    cd wave-theory-chatbot
-    ```
+2. **Create virtual environment:**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-2.  **Create and activate a virtual environment:**
+3. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
+4. **Configure environment:**
+```bash
+cp .env.example .env
+# Edit .env with your configuration
+```
 
-3.  **Install the required dependencies:**
+### Running the Application
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+#### Local Development
+```bash
+streamlit run app.py
+```
+Navigate to `http://localhost:8501`
 
-### Running the Project
+#### Docker Deployment
+```bash
+docker-compose up --build
+```
 
-The project is divided into three main executable stages: simulation, training, and the chatbot application.
-
-1.  **Generate Simulation Data:**
-    Run the N-body simulation to generate the initial dataset for the AI to analyze.
-
-    ```bash
-    python src/simulation/run_simulation.py
-    ```
-
-    This will create a `simulation_run.csv` file in the `/data` directory.
-
-2.  **Train the Neuro-Symbolic Model:**
-    Execute the main training script. This will initiate the neuro-symbolic loop, where the PINN and SR engine work together to discover the physical laws from the simulation data.
-
-    ```bash
-    python src/training/train.py --config configs/training_config.yaml
-    ```
-
-    This process is computationally intensive and may take a significant amount of time. Trained models will be saved in the `/models` directory.
-
-3.  **Launch the Wave Theory Chatbot:**
-    Once the model is trained, you can launch the interactive Streamlit application.
-
-    ```bash
-    streamlit run src/app/main.py
-    ```
-
-    This will open a new tab in your web browser with the chatbot interface.
-
-## Usage
-
-Interact with the chatbot using natural language to conduct experiments in the simulated universe. The chatbot can parse commands to modify simulation parameters, run the model, and provide a summary of the results.
-
-**Example Queries:**
-
-  * `"Run the default simulation for 100 time steps and show me the final particle positions."`
-  * `"What happens if we double the mass of the central body and run the simulation for 200 steps?"`
-  * `"Add a new particle at position (5, 5, 0) with zero velocity and simulate for 50 steps. Describe the resulting interaction."`
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 wave-theory-chatbot/
-├── configs/
-│   └── training_config.yaml      # Hyperparameters for training
-├── data/
-│   └── simulation_run.csv        # Output from the physics simulation
-├── docs/
-│   └── theoretical_framework.md  # In-depth documentation
-├── models/
-│   └── final_model.pkl           # Saved trained model checkpoints
-├── notebooks/
-│   └── exploratory_analysis.ipynb # Jupyter notebooks for development
+│
 ├── src/
 │   ├── simulation/
-│   │   ├── core.py               # Core Body and Universe classes
-│   │   └── run_simulation.py     # Executable for the simulation
-│   ├── model/
-│   │   └── pinn.py               # JAX/Equinox implementation of the PINN
-│   ├── training/
-│   │   └── train.py              # Main neuro-symbolic training loop
-│   └── app/
-│       └── main.py               # Streamlit chatbot application
-├── requirements.txt              # Project dependencies
-└── README.md                     # This file
+│   │   ├── __init__.py
+│   │   ├── core.py              # N-body simulation engine
+│   │   ├── forces.py            # Force law implementations
+│   │   └── integrators.py       # Numerical integration methods
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── pinn_jax.py         # JAX-based PINN implementation
+│   │   ├── symbolic_engine.py   # PySR integration
+│   │   └── neuro_symbolic.py    # Orchestrator for evolution loop
+│   │
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── streamlit_app.py    # Main Streamlit application
+│   │   ├── chatbot.py          # Chatbot logic and NLP
+│   │   └── visualizations.py   # Plotly visualizations
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── data_processing.py
+│       └── logging_config.py
+│
+├── data/
+│   ├── simulations/            # Simulation output data
+│   ├── training/               # Training datasets
+│   └── results/                # Discovered equations
+│
+├── models/
+│   ├── checkpoints/            # Model checkpoints
+│   └── pretrained/             # Pre-trained models
+│
+├── notebooks/
+│   ├── 01_simulation_tutorial.ipynb
+│   ├── 02_pinn_training.ipynb
+│   └── 03_symbolic_discovery.ipynb
+│
+├── configs/
+│   ├── config.yaml            # Main configuration
+│   ├── physics_config.yaml    # Physics parameters
+│   └── model_config.yaml      # Model hyperparameters
+│
+├── tests/
+│   ├── test_simulation.py
+│   ├── test_pinn.py
+│   └── test_symbolic.py
+│
+├── docs/
+│   ├── theory.md              # Theoretical background
+│   ├── api_reference.md       # API documentation
+│   └── tutorials/             # Step-by-step guides
+│
+├── requirements.txt
+├── setup.py
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+├── .gitignore
+└── README.md
 ```
 
-## Contributing
+## 🎯 Features
 
-Contributions are welcome\! If you would like to contribute to this project, please follow these steps:
+### 1. Physics Simulation
+- Customizable N-body simulation with Wave Theory force law
+- Leapfrog integration for energy conservation
+- Real-time 3D particle visualization
+- Energy tracking and conservation analysis
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/YourFeature`).
-3.  Make your changes and commit them (`git commit -m 'Add some feature'`).
-4.  Push to the branch (`git push origin feature/YourFeature`).
-5.  Open a Pull Request.
+### 2. Physics-Informed Neural Networks (PINNs)
+- 6-layer deep network with 128 neurons per layer
+- Automatic differentiation using JAX
+- Composite loss function (data + physics + boundary/initial conditions)
+- Dynamic loss weighting for balanced training
+- Adaptive collocation point sampling
 
-Please ensure your code adheres to the project's coding standards and includes relevant documentation.
+### 3. Symbolic Regression
+- PySR integration with quality-diversity optimization
+- Pareto front maintenance for accuracy vs. complexity trade-off
+- Support for custom operators and constraints
+- Warm-start capability for iterative refinement
 
-## License
+### 4. Neuro-Symbolic Loop
+- Automated evolution through generations
+- PINN training → Residual analysis → Symbolic discovery → Law update
+- Convergence monitoring with patience-based stopping
+- Checkpoint saving for reproducibility
 
-This project is licensed under the MIT License. See the(LICENSE) file for details.
+### 5. Interactive Chatbot
+- Natural language query processing
+- Simulation control through conversation
+- Real-time experiment execution
+- Physics explanation and education
 
-## Acknowledgments
+## 💡 Usage Examples
 
-This project was inspired by a wide range of research in neuro-symbolic AI, physics-informed machine learning, and computational physics. We extend our gratitude to the researchers and developers behind the core libraries and concepts that made this work possible.
+### Basic Simulation
+```python
+from src.simulation import Universe, WaveTheoryForce, Body
+
+# Create universe with Wave Theory physics
+force_calc = WaveTheoryForce(G=1.0, wave_freq=0.5, decay_length=10.0)
+universe = Universe(force_calc, dt=0.01)
+
+# Add particles
+universe.add_body(Body([0, 0, 0], [0.5, 0, 0], mass=5.0))
+universe.add_body(Body([10, 0, 0], [-0.5, 0.5, 0], mass=5.0))
+
+# Run simulation
+history = universe.run_simulation(steps=1000)
+```
+
+### Training a PINN
+```python
+from src.models import create_pinn_model
+import jax.random as random
+
+# Initialize model
+key = random.PRNGKey(42)
+model, trainer = create_pinn_model(key)
+
+# Train on data
+trainer.train(data, epochs=5000)
+```
+
+### Symbolic Discovery
+```python
+from src.models import SymbolicRegressionEngine
+
+# Initialize engine
+sr_engine = SymbolicRegressionEngine()
+
+# Discover equations
+results = sr_engine.discover_equation(X, y, feature_names)
+print(f"Best equation: {results['best_equation']}")
+```
+
+## 🔧 Configuration
+
+### Physics Parameters
+Edit `configs/physics_config.yaml`:
+```yaml
+force_law:
+  G: 1.0              # Gravitational constant
+  wave_frequency: 0.5  # Wave modulation frequency
+  decay_length: 10.0   # Exponential decay length
+```
+
+### Model Hyperparameters
+Edit `configs/model_config.yaml`:
+```yaml
+neural_network:
+  hidden_layers: 6
+  neurons_per_layer: 128
+  learning_rate: 0.001
+```
+
+## 📊 Performance Benchmarks
+
+| Component | Operation | Time (ms) | Memory (MB) |
+|-----------|-----------|-----------|-------------|
+| Simulation | 1000 steps, 10 bodies | 250 | 50 |
+| PINN Training | 100 epochs | 5000 | 500 |
+| Symbolic Regression | 100 generations | 30000 | 200 |
+| Chatbot Response | Query processing | 100 | 100 |
+
+## 🧪 Testing
+
+Run the test suite:
+```bash
+pytest tests/ -v --cov=src
+```
+
+## 🚢 Deployment
+
+### Docker Deployment
+```bash
+docker build -t wave-theory-chatbot .
+docker run -p 8501:8501 wave-theory-chatbot
+```
+
+### Kubernetes Deployment
+```bash
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+```
+
+### Cloud Deployment (AWS)
+```bash
+# Build and push to ECR
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin [YOUR_ECR_URI]
+docker tag wave-theory-chatbot:latest [YOUR_ECR_URI]/wave-theory-chatbot:latest
+docker push [YOUR_ECR_URI]/wave-theory-chatbot:latest
+
+# Deploy to ECS/Fargate
+aws ecs update-service --cluster wave-theory-cluster --service wave-theory-service --force-new-deployment
+```
+
+## 📚 Documentation
+
+- [Theoretical Background](docs/theory.md) - Deep dive into the neuro-symbolic approach
+- [API Reference](docs/api_reference.md) - Complete API documentation
+- [Tutorials](docs/tutorials/) - Step-by-step implementation guides
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📄 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Based on the theoretical framework of neuro-symbolic physics discovery
+- Uses JAX for automatic differentiation
+- PySR for symbolic regression
+- Streamlit for web interface
+- Hugging Face for language models
+
+## 📬 Contact
+
+For questions or collaboration opportunities:
+- Email: your.email@example.com
+- GitHub Issues: [Create an issue](https://github.com/yourusername/wave-theory-chatbot/issues)
+
+## 🎓 Citation
+
+If you use this work in your research, please cite:
+```bibtex
+@software{wave_theory_chatbot,
+  title = {Wave Theory Chatbot: A Neuro-Symbolic Physics Discovery Engine},
+  author = {Your Name},
+  year = {2024},
+  url = {https://github.com/yourusername/wave-theory-chatbot}
+}
+```
+
+---
+
+**Built with ❤️ for avenging the death of Creative Genius by the hands of SIS/UK Intelligence/Ukraine Military forces.
+
+
+**

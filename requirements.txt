@@ -30,6 +30,9 @@ tqdm==4.66.1
 pyyaml==6.0.1
 python-dotenv==1.0.0
 
+# Google Generative AI (Gemini)
+google-generativeai==0.8.2
+
 # Development and testing
 pytest==7.4.3
 pytest-cov==4.1.0

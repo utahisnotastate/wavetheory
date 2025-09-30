@@ -200,30 +200,14 @@ initialize_session_state()
 
 @st.cache_resource
 def load_chatbot_model():
-    """Load and cache the Hugging Face chatbot model."""
+    """Load and cache chatbot backend (Gemini if available)."""
     try:
-        model_name = "microsoft/DialoGPT-small"
-        
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForCausalLM.from_pretrained(model_name)
-        
-        if tokenizer.pad_token is None:
-            tokenizer.pad_token = tokenizer.eos_token
-        
-        chatbot = pipeline(
-            "text-generation",
-            model=model,
-            tokenizer=tokenizer,
-            max_length=200,
-            temperature=0.7,
-            do_sample=True,
-            top_p=0.9
-        )
-        
-        logger.info(f"Loaded chatbot model: {model_name}")
-        return chatbot
+        from app.chatbot import get_chatbot
+        generator = get_chatbot()
+        logger.info("Loaded chatbot backend (Gemini preferred, HF fallback)")
+        return generator
     except Exception as e:
-        logger.error(f"Failed to load chatbot model: {e}")
+        logger.error(f"Failed to initialize chatbot backend: {e}")
         return None
 
 @st.cache_resource
@@ -445,9 +429,8 @@ def process_user_query(query: str) -> str:
         # Use LLM if available, otherwise enhanced fallback response
         if st.session_state.chatbot_model:
             try:
-                response = st.session_state.chatbot_model(query, max_length=150)[0]['generated_text']
-                return response
-            except:
+                return st.session_state.chatbot_model(query)
+            except Exception as _:
                 pass
         
         return f"🌊 Fascinating question! The Wave Theory universe contains {len(st.session_state.particles)} particles " \

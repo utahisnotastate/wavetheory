@@ -333,7 +333,7 @@ wave-theory-chatbot/
 - **Export capabilities** for reports and analysis
 
 ### 🧪 Advanced Physics Experiments
-- **8 Pre-configured experiments**:
+- **8 Pre-configured experiments** + optional Lighthouse-inspired presets:
   - 🌊 **Gravitational Waves** - Binary black hole merger simulation
   - ⚛️ **Quantum Tunneling** - Particle tunneling through barriers
   - 🌀 **Chaotic Dynamics** - Three-body problem with chaotic behavior
@@ -342,6 +342,10 @@ wave-theory-chatbot/
   - 🪐 **Orbital Mechanics** - Multi-planet system with realistic orbits
   - 🔊 **Field Resonance** - Resonant field patterns in confined space
   - 🌡️ **Thermal Diffusion** - Temperature-dependent particle behavior
+  - 🕳️ **Blinking Universe** (RL) - Gated-force stroboscopic dynamics
+  - 🧲 **Gravity–EM Coupled** (RL) - Sinusoidal-modulated inverse-square law
+  - 🧭 **Phase-Matter Lattice** (RL) - Phase-dependent interactions via cos(Δθ)
+  - ⏱️ **Time Dilation Sweep** (RL) - Position-dependent time scaling
 
 ### 🎛️ Interactive Parameter Tuning
 - **Real-time parameter adjustment** with live feedback

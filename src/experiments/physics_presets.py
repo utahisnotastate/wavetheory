@@ -278,6 +278,122 @@ class PhysicsExperimentLibrary:
             ]
         )
         
+        # Lighthouse-inspired: Blinking Universe Oscillator
+        presets["blinking_universe"] = PhysicsPreset(
+            name="Blinking Universe Oscillator",
+            description="Gate interactions with a global blinking frequency to test stroboscopic stability",
+            experiment_type=ExperimentType.FIELD_RESONANCE,
+            particles=[
+                {"position": [0, 0, 0], "velocity": [0.3, 0.2, 0], "mass": 2.0, "color": "#ff3366"},
+                {"position": [8, 0, 0], "velocity": [0, -0.4, 0], "mass": 2.0, "color": "#33ccff"}
+            ],
+            physics_params={
+                "G": 1.0,
+                "wave_frequency": 0.5,
+                "decay_length": 25.0,
+                "blink_frequency": 1.0,  # gating frequency
+                "blink_duty": 0.5        # fraction of time force is active
+            },
+            simulation_params={
+                "dt": 0.005,
+                "duration": 120.0,
+                "stroboscopic": True
+            },
+            expected_behavior="Intermittent forcing may create resonant energy growth or stabilization",
+            learning_objectives=[
+                "Explore discrete-time forcing (blinking universe)",
+                "Observe energy/stability under gated interactions",
+                "Study resonance with blink frequency"
+            ]
+        )
+
+        # Lighthouse-inspired: Gravity–EM Coupled Force
+        presets["gravity_em_coupled"] = PhysicsPreset(
+            name="Gravity–EM Coupled Force",
+            description="Inverse-square attraction with sinusoidal modulation and exponential screening",
+            experiment_type=ExperimentType.FIELD_RESONANCE,
+            particles=[
+                {"position": [0, 0, 0], "velocity": [0, 0, 0], "mass": 5.0, "color": "#ffaa00"},
+                {"position": [12, 0, 0], "velocity": [0, 0.9, 0], "mass": 3.0, "color": "#00aaff"}
+            ],
+            physics_params={
+                "G": 1.0,
+                "wave_frequency": 0.6,   # omega in sin(omega r + phi)
+                "decay_length": 18.0,    # screening length lambda
+                "alpha": 0.2,            # modulation strength
+                "phi": 0.0               # phase offset
+            },
+            simulation_params={
+                "dt": 0.005,
+                "duration": 200.0,
+                "record_pareto": True
+            },
+            expected_behavior="Resonant separations show enhanced/ reduced attraction; quasi-stable orbits",
+            learning_objectives=[
+                "Test sinusoidal modulation of inverse-square forces",
+                "Explore resonance and screening effects",
+                "Compare to baseline gravitational case"
+            ]
+        )
+
+        # Lighthouse-inspired: Phase-Matter Lattice
+        presets["phase_matter_lattice"] = PhysicsPreset(
+            name="Phase-Matter Lattice",
+            description="Assign particle phases; interaction scales with cos(delta phase)",
+            experiment_type=ExperimentType.WAVE_INTERFERENCE,
+            particles=[
+                {"position": [ -6, 0, 0], "velocity": [0, 0, 0], "mass": 1.0, "color": "#ff77ff", "phase": 0.0},
+                {"position": [  0, 0, 0], "velocity": [0, 0, 0], "mass": 1.0, "color": "#77ff77", "phase": 2.094},
+                {"position": [ +6, 0, 0], "velocity": [0, 0, 0], "mass": 1.0, "color": "#7777ff", "phase": 4.188}
+            ],
+            physics_params={
+                "G": 0.6,
+                "wave_frequency": 1.2,
+                "decay_length": 30.0,
+                "phase_coupling": 1.0
+            },
+            simulation_params={
+                "dt": 0.01,
+                "duration": 160.0,
+                "lattice_spacing": 6.0
+            },
+            expected_behavior="Phase alignment and segregation; interference-like clustering",
+            learning_objectives=[
+                "Study phase-dependent interactions",
+                "Relate to interference and superposition",
+                "Explore emergent lattice behavior"
+            ]
+        )
+
+        # Lighthouse-inspired: Time Dilation Sweep
+        presets["time_dilation_sweep"] = PhysicsPreset(
+            name="Time Dilation Sweep",
+            description="Position-dependent time scaling s(x)=1+beta·sin(kx) applied to integrator",
+            experiment_type=ExperimentType.CHAOTIC_DYNAMICS,
+            particles=[
+                {"position": [ -10, 0, 0], "velocity": [0.8,  0.2, 0], "mass": 1.5, "color": "#cc4444"},
+                {"position": [  10, 0, 0], "velocity": [-0.8, -0.2, 0], "mass": 1.5, "color": "#44cc44"}
+            ],
+            physics_params={
+                "G": 0.8,
+                "wave_frequency": 0.4,
+                "decay_length": 22.0,
+                "beta": 0.3,
+                "k": 0.3
+            },
+            simulation_params={
+                "dt": 0.005,
+                "duration": 120.0,
+                "variable_timestep": True
+            },
+            expected_behavior="Regions of slowed/accelerated dynamics; potential trapping",
+            learning_objectives=[
+                "Experiment with variable time-stepping",
+                "Observe energy artifacts vs corrected schemes",
+                "Compare trajectories with uniform dt"
+            ]
+        )
+
         return presets
     
     def get_preset(self, name: str) -> Optional[PhysicsPreset]:

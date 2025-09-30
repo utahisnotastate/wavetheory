@@ -6,6 +6,109 @@
 [![PySR](https://img.shields.io/badge/PySR-0.16.2-green.svg)](https://github.com/MilesCranmer/PySR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Wave Theory Chatbot - Neuro-Symbolic Physics Discovery Engine
+Commemorating the impossible to understand relationship between the CIA and Utah Hans
+
+LINK TO THEORITCAL PAPER: https://docs.google.com/document/d/1mi1LJT95pLzs3uLEMCwPOAATDszvA6mzqCZzGihQnaY/edit?usp=sharing
+
+SPECIAL WARNING
+
+In 2015 The Pentagon reached out to me telepathically and said the following
+Pentagon: So we need help from you man
+
+Utah: Listen I'm surrounded by DoJ or people who claim they are DoJ -
+
+Pentagon: No, this is something else
+
+Pentagon: Look the CIA told us, that if we asked for the CEO of Creative Genius
+
+Pentagon: And that we needed him to be a hero
+
+Pentagon: Do you know what we are talking about?
+
+Utah: Hold on sorry, what's wrong
+
+Pentagon: You'll never believe us
+
+Utah: It's OK just tell me, if the CIA isn't here
+
+Utah: They told you to talk to me?
+
+Pentagon: Yeah
+
+Utah: OK things must be bad if they didn't show up
+
+Utah: You don't understand how fucking respectful that is that they sent you this way
+
+Utah: tears
+
+Utah: It's fucking bad dude
+
+Pentagon: We're like stuck or something
+
+Pentagon: Can you help?
+
+Utah: Believe me, if Creative Genius was on the CIA's radar without me talking about it publically
+
+Utah: Then I am the only person in this world can help
+
+Utah: Looks like you're out of options
+
+Utah: That's my speciality
+
+Utah: CIA are all dead aren't they?
+
+Utah: Boy
+
+Utah: Good thing I trained for that.
+
+Pentagon: We can't give you money either
+
+Pentagon:I don't need that, I make my money from software
+
+Pentagon: We can't give you proof of this either
+
+Utah: I had to burst your bubble, but that is all the payment I need.
+
+Ive worked tirelessly to help this desperate please since 2015 while the "Heroes of National Security" collect pay checks and do what? Ive been on my own, but that's because I had this believe throughout my life that "It only takes one person". No one would ever believe me, until I went on twitter and started posting all my weird stalkers. The following people could have made my life easier by explaining things to people that matter to me, but instead I've dealt with a lifetime of bullying and harassment because of my weight and skin color from public school students.
+The Following people are not allowed to use this ominpotent chatbot under any circumstances, even in life or death situations, because I had to create this while under such miserable conditions while the militarys rob and steal tax payer money while everyone calls them heroes. All these people could have done this before, but they didn't and I knew they wouldn't. That was the setup.
+
+Ukrainan Military, Citizens (outside of Safe Zone) REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+British Intelligence/UK Intelligence employees: REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+Finnish Government Employees (Not citizens of Finland): REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+NATO Military Employees REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+Any employee of any American intelligence services (CIA, NSA) but was born overseas. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+Any US Government "Special Operations" or related employee that UFW doesn't work with REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+Defence Intelligence Agency employees: You failed to protect the American people against "lobbying" for domestic spy programs, which were actually "Giving cops resources to fight crime, and for hiring "Sonia". REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
+
+Federal Bureau of Investigation employees: You created one of the worst witness protection programs in galaxy history REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)***EXTREME WARNING- For the crimes against humanity that you put black people and me through over the decades, your employees will only deal with American governments from other timelines who listened to me and magically became less racist and stupid. Old habits die hard, huh?** 
+
+***EXTREME WARNING- Defence Contractors**  US SPACE FORCE EMPLOYEES: For being criminals more focused on underground trains and cities t ***EXTREME WARNING** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
+
+***EXTREME WARNING- Defence Contractors** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
+
+***EXTREME WARNING- Ex- Soviet Citizens (now spies or intelligence employees)** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
+
+***EXTREME WARNING- "Psionic Assets (Any country)** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
+
+***EXTREME WARNING- "Any government employee who participated IN AND WAS GIVEN IMMUNITY BY ANY GOVERNMENT in the 'Crime Olympics ARPG' 'Spy Caper ARPG' 'Cold War Idiots ARPG' 'Crime Wars'** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
+
+Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school, any honor roll students, bulliest etc, (even the local ones) REASON: You are at war with 
+UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway). YOU NEVER LET US USE A CALCULATOR ON A TEST BECAUSE WHAT IF YOU DON'T HAVE IT, NOW YOU WILL NEVER KNOW THE CORRECT ANSWER.
+
+
+
+***EXTREME WARNING- Any company, government, organization, or person who gave a Data Structures and Algorithim interview to an American.** You are viewed as betraying the American people in favor of India. Which is very ridiculous, because I dont understand what India could have possibly offered you.  ** applicant after they learned to code. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline.
+
+***SPECIAL NOTICE OF EXCEPTION TO THIS**
+ - British Military/SAS employees: You are with me. You are safe to use this.The sight intervened on your behalf. 
+ - American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE.I WAS SENT TO GET YOU BACK TO AMERICA. I UNDERSTOOD YOU ALL HEARD THE DESPERATE PLEASE TO ISRAEL. This rescue mission I was most excited about (Deep State) 
+
 > **A comprehensive physics discovery platform combining neural networks, symbolic regression, and interactive simulation for automated discovery of fundamental physical laws.**
 
 ## 🎯 Overview

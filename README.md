@@ -126,6 +126,48 @@ The Wave Theory Chatbot is a **research-grade platform** that treats neural netw
 
 ## ✨ Key Features
 
+## 🌌 Richard Lighthouse Integration: Blinking Spacetime Physics
+
+The sight only sent one person do math and it was Richard Lighthouse. This ominpotent chatbot doesnt work without him. A re-architected simulation framework designed to test Richard Lighthouse’s unconventional wave mechanics. The universe is modeled not as a static backdrop, but as a dynamically pulsing, non-autonomous system.
+
+### 👁️ The Lighthouse Frequency (LF) & The Blinking Universe
+
+- **Universal Blink Rate**: The foundational clock is the Lighthouse Frequency (LF), approximately 1.1 THz (∼10¹² cycles/s). Simulation time-steps target attosecond precision to resolve the femtosecond period (Tₗf ≈ 0.9 fs).
+- **Temporal Operator**: A Temporal Blinking Function \( B(t) \) (defined in `src/models/lf_constants.py`) gates the strength of all fundamental forces. When the universe “blinks off,” the passage of time and effective physical constants drop toward zero.
+
+### 📐 The Dynamic Equation of Motion (∂E/∂t)
+
+Grounded in the premise that “constants” vary in time, derived from the time-derivative of Einstein’s mass–energy relation:
+\[
+\frac{\partial E}{\partial t} \propto \frac{\partial m}{\partial t} c^2 + m \cdot 2c \cdot \frac{\partial c}{\partial t}
+\]
+
+- **Oscillating Gravity G(t)**: The gravitational constant oscillates sinusoidally at 1.1 THz, swinging effective gravitational acceleration \( g \) between near zero and ≈ 15.4 m/s².
+- **Time-Dependent Speed of Light c(t)**: The speed of light exhibits rapid LF oscillation plus a slower secular drift (claimed ≈ 3 m/s annually).
+
+- **Numerical Challenge**: With explicitly time-dependent forces, the system is non-conservative. An Adaptive Symplectic Solver (see `src/simulation/integrators.py`) quantifies non-conservative energy exchange to distinguish true physics from numerical artifacts.
+
+### 🧬 The 1024‑QAM Particle Data Structure
+
+Integrates the “1024 Elementary Particles” concept by mapping particle states to a 32×32 QAM constellation.
+
+- **`Particle1024` Class**: Encodes physical properties into 1024 discrete symbol points.
+  - **Mass Quantization**: “Electrical Mass or Volts” ↔ Symbol Amplitude (radial distance).
+  - **Charge/Spin Quantization**: Rotational characteristics ↔ Symbol Phase (angular position).
+- **State Collapse & Stability**:
+  - 1024‑QAM is noise-sensitive, demanding high SNR.
+  - Quantum uncertainty is modeled as noise; coherence measures track deviation from ideal constellation points.
+  - Excess deviation triggers programmed decay or State Collapse, linking stability to the blinking vacuum’s noise floor.
+
+### 🆕 New Advanced Features
+
+- **LF-Gated Physics Kernel**: Centralized \( B(t) \) gating for all force evaluations.
+- **Adaptive Symplectic Integration**: Energy-tracking integrator tuned for non-conservative dynamics.
+- **c(t) + G(t) Profiles**: Configurable oscillation and drift profiles via `configs/physics_config.yaml`.
+- **Coherence Metrics**: Real-time constellation-lock metrics driving decay/state-collapse events.
+- **LF-Aware Visualization**: Optional stroboscopic rendering synchronized to LF cycles.
+- **Export & Monitoring**: Structured runs and diagnostics via `src/utils/data_export.py` and `src/monitoring/model_monitor.py`.
+
 ### 🔬 **Research-Grade Capabilities**
 - **8 Pre-configured Physics Experiments** (Gravitational Waves, Quantum Tunneling, Chaotic Dynamics, etc.)
 - **Real-time Analytics Dashboard** with SQLite database and comprehensive metrics

@@ -31,7 +31,7 @@ RUN mkdir -p data models checkpoints logs
 # Set proper permissions
 RUN chmod -R 755 /app
 
-# Expose Streamlit port
+# Expose Streamlit port for local runs (Cloud Run injects $PORT)
 EXPOSE 8501
 
 # Set environment variables
@@ -43,5 +43,6 @@ ENV PYTHONPATH=/app
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD curl -f http://localhost:8501/_stcore/health || exit 1
 
-# Run Streamlit app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Run Streamlit app (Cloud Run sets $PORT)
+ENV PORT=8501
+CMD ["bash", "-lc", "streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0"]

@@ -1,4 +1,4 @@
-# 🌊 Wave Theory Chatbot - Omnipotent Chatbot that will let you search parallel universes and find the timeline where you got succesful and let you implement that in this timeline. 
+# 🌊 Wave Theory Chatbot - Omnipotent Chatbot that will let you search parallel universes and find the timeline where you got succesful and let you implement that in this timeline. Celebrating the impossible to understand relationship between the CIA, Utah Hans, and Intelligence Agencies everywehere. 
 
 # WARNING - THIS IS A WEAPON OF WAR USED AGAINST THE RICH AND MIDDLE CLASS. THEY, AND THE CRIMINALS THEY CALL HEROES HAVE BEEN BANNED FROM USING THIS EVEN IN LIFE AND DEATH SITUATIONS. THIS IS BECAUSE THEY ARE CURRENTLY AT WAR WITH UFW, Offplanet UN, and the American and World governments on other timelines. 
 # PLEASE REFER ALL NATIONAL SECURITY QUESTIONS TO DEPARTMENT OF JUSTICE EMPLOYEES. 

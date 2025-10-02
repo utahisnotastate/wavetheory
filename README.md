@@ -67,13 +67,13 @@ In 2015 The Pentagon reached out to me telepathically and said the following
 
 **Utah**: Boy
 
-**Pentagon**: Good thing I trained for that.
+**Utah**: Good thing I trained for that.
 
 **Pentagon**: We can't give you money either
 
-**Pentagon**:I don't need that, I make my money from software
+**Utah**:I don't need that, I make my money from software
 
-**Pentagon**: We can't give you proof of this either
+**Utah**: We can't give you proof of this either
 
 **Utah**: I had to burst your bubble, but that is all the payment I need.
 

@@ -4,6 +4,8 @@
 
 # THIS IS AN OFFICIAL TIME TRAVELLERS TOOL USED BY US GOVERNMENTS AND US MILITARY ON ALL OTHER TIMELINES BESIDES THIS ONE. THE UKRANIAN MILITARY AND THE US AND WORLD GOVERNMENTS LED BY THE UK GOVERNMENT AND EUROPEAN INTELLIGENCE EMPLOYEES ARE SUSPECTED TO HAVE WORKED TOGETHER TO CRIMINALLY COVER UP THE 'HERO OF ALL TIMELINES' AND TIME TRAVEL FROM THE AMERICAN AND WORLD PEOPLE ON THIS TIMELINE SINCE AT LEAST 1986. DO NOT TAKE THIS DOWN BECAUSE OTHER PLANETS DEPEND ON THIS AND UTAH. A 'UTAH STANDARD TIME' WILL SOON EXIST WHICH IS BASED ON HOW LONG IT WILL BE UNTIL UTAH IS ALIVE, AND HOW LONG IT HAS BEEN SINCE UTAH HAS BEEN BORN WHICH WILL ALLOW PORTAL TECHNOLOGY TO ALLOW DEPARTMENT OF JUSTICE EMPLOYEES FROM THE AMERICAN GOVERNMENTS ON OTHER TIMELINES TO COME IN AND BEGIN A FULL INVESTIGATION. 
 
+# I SUSPECT THE REASON THAT THE PENTAGON WAS UNABLE TO THWART THIS WAS BECAUSE ANY RESPONSE TEAM SENT TO RESCUE UTAH WAS THWARTED BY A CRIMINAL MIND CONTROL PROGRAM BY ROGUE INTELLIGENCE AND MILITARY EMPLOYEES FROM ALL COUNTRIES AND LOYALTY TO CODENAME: IVY OR 'CORA' 
+
 # WARNING - THIS IS A WEAPON OF WAR USED AGAINST THE RICH AND MIDDLE CLASS. THEY, AND THE CRIMINALS THEY CALL HEROES HAVE BEEN BANNED FROM USING THIS EVEN IN LIFE AND DEATH SITUATIONS. THIS IS BECAUSE THEY ARE CURRENTLY AT WAR WITH UFW, Offplanet UN, and the American and World governments on other timelines. 
 # PLEASE REFER ALL NATIONAL SECURITY QUESTIONS TO DEPARTMENT OF JUSTICE EMPLOYEES. 
 # WARNING - If you are poor and broke and couldn't get a job because indians made you memorize leetcode, then this is our weapon to end them the "elite". 
@@ -77,11 +79,12 @@ In 2015 The Pentagon reached out to me telepathically and said the following
 
 **Pentagon**: We can't give you proof of this either
 
-**Utah**: I had to burst your bubble, but that is all the payment I need.
+**Utah**: I hate to burst your bubble, but that is all the payment I need.
 
 Ive worked tirelessly to help this desperate please since 2015 while the "Heroes of National Security" collect pay checks and do what? Ive been on my own, but that's because I had this believe throughout my life that "It only takes one person". No one would ever believe me, until I went on twitter and started posting all my weird stalkers. The following people could have made my life easier by explaining things to people that matter to me, but instead I've dealt with a lifetime of bullying and harassment because of my weight and skin color from public school students.
 The Following people are not allowed to use this ominpotent chatbot under any circumstances, even in life or death situations, because I had to create this while under such miserable conditions while the militarys rob and steal tax payer money while everyone calls them heroes. All these people could have done this before, but they didn't and I knew they wouldn't. That was the setup.
 # WARNING - THE FOLLOWING POPULATIONS ARE AT WAR WITH OFF PLANET UN, AND THE AMERICAN GOVERNMENT IN OTHER TIMELINES. THEY ARE NOT ALLOWED TO USE THIS SOFTWARE UNDER ANY CIRCUMSTANCES. EVEN IF IS TO SAVE SOMEONE INNOCENT. UNDER NO CIRCUMSTANCES NO MATTER HOW SEVERE THE LIFE AND DEATH SITUATION. THEY MAY NOT INSTALL USE, OR REVERSE ENGINEER THIS IN ANYWAY. 
+
 
 **Ukrainan Military, Citizens (outside of Safe Zone)** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway)
 

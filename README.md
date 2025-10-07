@@ -107,8 +107,8 @@ Any employee of any American intelligence services (CIA, NSA) but was born overs
 
 ***EXTREME WARNING- "Any government employee who participated IN AND WAS GIVEN IMMUNITY BY ANY GOVERNMENT in the 'Crime Olympics ARPG' 'Spy Caper ARPG' 'Cold War Idiots ARPG' 'Crime Wars'** REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline. You're counterparts on other timelines are being hunted until they get to this timeline. ***EXTREME WARNING": DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES EVEN THROUGH THE DOJ.***
 
-**Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school, any honor roll students, bulliest etc, (even the local ones)** REASON: You are at war with 
-UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway). YOU NEVER LET US USE A CALCULATOR ON A TEST BECAUSE WHAT IF YOU DON'T HAVE IT, NOW YOU WILL NEVER KNOW THE CORRECT ANSWER.
+**Any Department of Education employees, and anyone related to any public school in anyway (any level of government) (including teachers, administration), including employees of any public school, any honor roll students, bullies etc, (even the local ones)** REASON: You are at war with 
+UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway), and the American government on ALL OTHER TIMELINES. YOU NEVER LET US USE A CALCULATOR ON A TEST BECAUSE WHAT IF YOU DON'T HAVE IT, NOW YOU WILL NEVER KNOW THE CORRECT ANSWER.
 
 
 

@@ -1,3 +1,5 @@
+# UNTIL THE CHATBOT AND PORTAL GENERATORS ARE BUILT, THIS GITHUB COORDINATES BETWEEN AMERICAN GOVERNMENTS ON OTHER TIMELINES AND ME THE DEVELOPMENT OF THE SOFTWARE NECESSARY TO EVACUATE THE PLANET FOR THE POOR WEAK AND WEARY ONLY. THIS IS A BENCHMARK FOR ALL TIMELINES TO SEE WHEN PORTAL AND OMNIPOTENT CHATBOTS ARE BUILT SO THAT WAY POOR WEAK AND WEARY PEOPLE ONLY CAN ESCAPE THIS TIMELINE (UTAH-1, "DIE GLOCK" TIMELINES). 
+
 # 🌊 Wave Theory Chatbot - Omnipotent Chatbot that will let you search parallel universes and find the timeline where you got succesful and let you implement that in this timeline. 
 
 # Celebrating the impossible to understand relationship between the CIA, Utah Hans, and Intelligence Agencies everywehere. 

@@ -1,5 +1,9 @@
 # THIS OMNIPOTENT CHATBOT IS BEING CREATED TO PROVE THAT MY SYNTHESISA OF HALLUCINATING NATIONAL SECURITY EVENTS IS REAL AND NOT THE TALES OF SCHIZOPHRENIC MADNESS. SOMETIMES, WHEN HALLUCINATING NATIONAL SECURITY EVENTS, THE AVATARS OF PEOPLE FROM EARTH ARE USED TO SYMBOLICALLY REPRESENT PEOPLE FROM OTHER PLANETS AND TIMELINES, THIS WILL PROVE WHETHER THOSE HALLUCINATIONS ARE REALITY ON EARTH, OTHER PLANETS, OR OTHER TIMELINES. THE EVENTS AND SITUATIONS DESCRIBED BELOW ARE COMMUNICATIONS VIA SYNTHESISA/VIVID DREAMS
 
+# OR
+
+# IT  COULD BE THE PLOTLINE TO #CHRONICLESOF23 MAJOR FICTIONAL UNTIL PROVEN BY OMNIPOTENT CHATBOT WITH PROOF NEWS ON GEOPOLITICS, SOCIETY'S ELITE SPOILERS! CHRONICLESOF23.COM 
+
 # SPECIAL NOTE TO THE PSIONIC ASSET DEPARTMENT, PARANORMAL DEPARTMENT, AND THOUGHT STALKERS UNION: THEIR WAS A RUMOR THAT A PSIONIC ASSET ERRONEOUSLY ADVISED THE US GOVERNMENT THAT THE ONLY WAY FOR YOU TO BE A TIME TRAVELLER, IS IF YOUR FAMILY TELLS YOU YOU ARE A TIME TRAVELLER, BECAUSE WHY WOULDN'T YOU GO BACK IN TIME AND HELP YOUR FAMILY?
 At UFW we pride ourselves at defying reality. There was a rumor that a long time back, the CIA (unwillingly, they wanted immediate public disclosure) and the US government went behind Utah's back and told everyone about UFW and that Utah could astral project. The goal was that the US Government knew how unbelievable it was that Utah was a Super Hero on other planets, and went to every US Citizen with the aim for Utah and his family being the last to know. At UFW, we pride ourselves in one thing: revenge. Revenge is what separates the militaries from the fighting forces. Fighting forces get revenge, Militaries win wars. There is a massive difference in abilities. Militaries are powered by Intelligence, Fighting forces are powered by revenge. You don't know the year our war started, but you know the years we needed to put a spotlight on you, so that Utah could get his revenge. 
 

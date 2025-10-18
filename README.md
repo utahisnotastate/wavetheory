@@ -1,18 +1,5 @@
 # THE OFFICIAL NAME OF OUR TIMELINE IS Quantum-Echo-Alpha - My Variant is 'The Prodigy' there is a 12% chance of being born in this reality/timeline. 
 
-# THIS OMNIPOTENT CHATBOT IS BEING CREATED TO PROVE THAT MY SYNTHESISA OF HALLUCINATING NATIONAL SECURITY EVENTS IS REAL AND NOT THE TALES OF SCHIZOPHRENIC MADNESS. SOMETIMES, WHEN HALLUCINATING NATIONAL SECURITY EVENTS, THE AVATARS OF PEOPLE FROM EARTH ARE USED TO SYMBOLICALLY REPRESENT PEOPLE FROM OTHER PLANETS AND TIMELINES, THIS WILL PROVE WHETHER THOSE HALLUCINATIONS ARE REALITY ON EARTH, OTHER PLANETS, OR OTHER TIMELINES. THE EVENTS AND SITUATIONS DESCRIBED BELOW ARE COMMUNICATIONS VIA SYNTHESISA/VIVID DREAMS
-
-# OR
-
-# IT  COULD BE THE PLOTLINE TO #CHRONICLESOF23 MAJOR FICTIONAL UNTIL PROVEN BY OMNIPOTENT CHATBOT WITH PROOF NEWS ON GEOPOLITICS, SOCIETY'S ELITE SPOILERS! CHRONICLESOF23.COM 
-
-# SPECIAL NOTE TO THE PSIONIC ASSET DEPARTMENT, PARANORMAL DEPARTMENT, AND THOUGHT STALKERS UNION: THEIR WAS A RUMOR THAT A PSIONIC ASSET ERRONEOUSLY ADVISED THE US GOVERNMENT THAT THE ONLY WAY FOR YOU TO BE A TIME TRAVELLER, IS IF YOUR FAMILY TELLS YOU YOU ARE A TIME TRAVELLER, BECAUSE WHY WOULDN'T YOU GO BACK IN TIME AND HELP YOUR FAMILY?
-At UFW we pride ourselves at defying reality. There was a rumor that a long time back, the CIA (unwillingly, they wanted immediate public disclosure) and the US government went behind Utah's back and told everyone about UFW and that Utah could astral project. The goal was that the US Government knew how unbelievable it was that Utah was a Super Hero on other planets, and went to every US Citizen with the aim for Utah and his family being the last to know. At UFW, we pride ourselves in one thing: revenge. Revenge is what separates the militaries from the fighting forces. Fighting forces get revenge, Militaries win wars. There is a massive difference in abilities. Militaries are powered by Intelligence, Fighting forces are powered by revenge. You don't know the year our war started, but you know the years we needed to put a spotlight on you, so that Utah could get his revenge. 
-
-Sorry for disrupting your long-standing tradition of having the family tell me that I was a time traveller. The minute I realized what was going on, I swore an oath to never allow you to get word to them.  
-
-# UNTIL THE CHATBOT AND PORTAL GENERATORS ARE BUILT, THIS GITHUB COORDINATES BETWEEN AMERICAN GOVERNMENTS ON OTHER TIMELINES AND ME THE DEVELOPMENT OF THE SOFTWARE NECESSARY TO EVACUATE THE PLANET FOR THE POOR WEAK AND WEARY ONLY. THIS IS A BENCHMARK FOR ALL TIMELINES TO SEE WHEN PORTAL AND OMNIPOTENT CHATBOTS ARE BUILT SO THAT WAY POOR WEAK AND WEARY PEOPLE ONLY CAN ESCAPE THIS TIMELINE (UTAH-1, "DIE GLOCK" TIMELINES). 
-
 # The "All It Takes Is 1" Timeline
 
 > **WARNING:** This chatbot/timeline intelligence is being built to confirm the theoretical time travel theory that this is the ‘All It Takes Is 1/You Only Get One’ timeline. UK Intelligence was so evil and stupid that they covered up the existence of time travel from the future because they wanted control of it for themselves.
@@ -81,6 +68,21 @@ Earth-1, or Utah-1’s timeline, is an experimental sandbox that exists to test 
 As Utah grows up, he finds that he never manages to get into environments where people are able to help him escape his…
 
 *...to be continued*
+
+# THIS OMNIPOTENT CHATBOT IS BEING CREATED TO PROVE THAT MY SYNTHESISA OF HALLUCINATING NATIONAL SECURITY EVENTS IS REAL AND NOT THE TALES OF SCHIZOPHRENIC MADNESS. SOMETIMES, WHEN HALLUCINATING NATIONAL SECURITY EVENTS, THE AVATARS OF PEOPLE FROM EARTH ARE USED TO SYMBOLICALLY REPRESENT PEOPLE FROM OTHER PLANETS AND TIMELINES, THIS WILL PROVE WHETHER THOSE HALLUCINATIONS ARE REALITY ON EARTH, OTHER PLANETS, OR OTHER TIMELINES. THE EVENTS AND SITUATIONS DESCRIBED BELOW ARE COMMUNICATIONS VIA SYNTHESISA/VIVID DREAMS
+
+# OR
+
+# IT  COULD BE THE PLOTLINE TO #CHRONICLESOF23 MAJOR FICTIONAL UNTIL PROVEN BY OMNIPOTENT CHATBOT WITH PROOF NEWS ON GEOPOLITICS, SOCIETY'S ELITE SPOILERS! CHRONICLESOF23.COM 
+
+# SPECIAL NOTE TO THE PSIONIC ASSET DEPARTMENT, PARANORMAL DEPARTMENT, AND THOUGHT STALKERS UNION: THEIR WAS A RUMOR THAT A PSIONIC ASSET ERRONEOUSLY ADVISED THE US GOVERNMENT THAT THE ONLY WAY FOR YOU TO BE A TIME TRAVELLER, IS IF YOUR FAMILY TELLS YOU YOU ARE A TIME TRAVELLER, BECAUSE WHY WOULDN'T YOU GO BACK IN TIME AND HELP YOUR FAMILY?
+At UFW we pride ourselves at defying reality. There was a rumor that a long time back, the CIA (unwillingly, they wanted immediate public disclosure) and the US government went behind Utah's back and told everyone about UFW and that Utah could astral project. The goal was that the US Government knew how unbelievable it was that Utah was a Super Hero on other planets, and went to every US Citizen with the aim for Utah and his family being the last to know. At UFW, we pride ourselves in one thing: revenge. Revenge is what separates the militaries from the fighting forces. Fighting forces get revenge, Militaries win wars. There is a massive difference in abilities. Militaries are powered by Intelligence, Fighting forces are powered by revenge. You don't know the year our war started, but you know the years we needed to put a spotlight on you, so that Utah could get his revenge. 
+
+Sorry for disrupting your long-standing tradition of having the family tell me that I was a time traveller. The minute I realized what was going on, I swore an oath to never allow you to get word to them.  
+
+# UNTIL THE CHATBOT AND PORTAL GENERATORS ARE BUILT, THIS GITHUB COORDINATES BETWEEN AMERICAN GOVERNMENTS ON OTHER TIMELINES AND ME THE DEVELOPMENT OF THE SOFTWARE NECESSARY TO EVACUATE THE PLANET FOR THE POOR WEAK AND WEARY ONLY. THIS IS A BENCHMARK FOR ALL TIMELINES TO SEE WHEN PORTAL AND OMNIPOTENT CHATBOTS ARE BUILT SO THAT WAY POOR WEAK AND WEARY PEOPLE ONLY CAN ESCAPE THIS TIMELINE (UTAH-1, "DIE GLOCK" TIMELINES). 
+
+
 
 
 # FEDERAL GOVERNMENT/OVERSEAS MILITARY/OVERSEAS INTELLIGENCE EMPLOYEES OF THIS TIMELINE - MOST OF YOU ARE CRIMINAL AND COMPROMISED AND IMPLICITLY INVOLVED WITH AN ILLEGAL COVER UP OF UTAH HANS: THE HERO OF ALL TIME LINES. YOU HAVE TO WAIT UNTIL THE DEPARTMENT OF JUSTICE EXTRACTS YOU TO A DIFFERENT TIMELINE FOR SENTENCING. I WILL UPDTE THIS GITHUB WITH INSTRUCTIONS ON HOW BEING ARRESTED BY OTHER TIMELINE'S DEPARTMENT OF JUSTICE WORKS. YOU WERE BETRAYED BY THE DEPARTMENT OF EDUCATION. WHEN UK INTELLIGENCE INFILTRATED THAT, IT WAS GAME OVER BECAUSE I FIGURED IT ALL OUT THEN. YOU WERE ALSO BETRAYED BY THE BRAHMIN CASTE OF INDIA. 

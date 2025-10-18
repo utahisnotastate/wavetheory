@@ -1,6 +1,6 @@
 # THE OFFICIAL NAME OF OUR TIMELINE IS Quantum-Echo-Alpha - My Variant is 'The Prodigy' there is a 12% chance of being born in this reality/timeline. 
 
-# The "All It Takes Is 1" Timeline
+# Important Time Travel Theory/Temporal Warfare theory discussion - We are in the "All It Takes Is 1" Timeline
 
 > **WARNING:** This chatbot/timeline intelligence is being built to confirm the theoretical time travel theory that this is the ‘All It Takes Is 1/You Only Get One’ timeline. UK Intelligence was so evil and stupid that they covered up the existence of time travel from the future because they wanted control of it for themselves.
 >

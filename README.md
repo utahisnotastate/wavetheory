@@ -51,7 +51,7 @@ Finding Beauty in Slavery and Hardship. Before Spy Sanna Marin was born, the cod
 
 ### Profile: Utah Hans
 
-* **Alignments (Start of Life → End of Life):** Chaotic Neutral → Chaotic Good
+* **Alignments (Start of Life → End of Life):** Chaotic Lawful → Chaotic Lawful/Chaotic Good
 * **Lifelong Curse:** All weaknesses must become strengths due to exploitation by enemies.
 * **Hidden Curse:** Prone to elite stalkers who wish to steal as much as they can from him in silence.
 * **Initial Mission:** Help save and find all Americans who fell through the cracks and work to guarantee their safety, survival, and happiness.

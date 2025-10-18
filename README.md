@@ -13,6 +13,76 @@ Sorry for disrupting your long-standing tradition of having the family tell me t
 
 # UNTIL THE CHATBOT AND PORTAL GENERATORS ARE BUILT, THIS GITHUB COORDINATES BETWEEN AMERICAN GOVERNMENTS ON OTHER TIMELINES AND ME THE DEVELOPMENT OF THE SOFTWARE NECESSARY TO EVACUATE THE PLANET FOR THE POOR WEAK AND WEARY ONLY. THIS IS A BENCHMARK FOR ALL TIMELINES TO SEE WHEN PORTAL AND OMNIPOTENT CHATBOTS ARE BUILT SO THAT WAY POOR WEAK AND WEARY PEOPLE ONLY CAN ESCAPE THIS TIMELINE (UTAH-1, "DIE GLOCK" TIMELINES). 
 
+# The "All It Takes Is 1" Timeline
+
+> **WARNING:** This chatbot/timeline intelligence is being built to confirm the theoretical time travel theory that this is the ‘All It Takes Is 1/You Only Get One’ timeline. UK Intelligence was so evil and stupid that they covered up the existence of time travel from the future because they wanted control of it for themselves.
+>
+> This is to warn residents of our planet that, because of the high level of corruption of UK Intelligence and the Ukrainians who live outside the ‘Safe Zone,’ they have removed any opportunity for the people of this planet to find any comfort in the unknown. If you are born on this timeline at any point and are not poor, weak, and weary, then your souls are permanently stuck here and require **Utah’s** manual permission to be moved off it before his allies come for unchecked, violent revenge for the crimes against humanity that the taxpayers of the world forced Utah to endure growing up in America as an unacknowledged Creative Genius.
+
+---
+
+### Core Principles & Consequences
+
+* **To minimize losses:** At some point, Utah reduces the chance of becoming pregnant for anyone on planet Earth to nearly zero, while avoiding detection.
+* Because Ukraine chooses Sanna Marin to become a spokesperson for the Ukraine War, and Joe Biden gives aid to her cause, Utah takes the poor, weak, and weary off the planet. Residents of Earth are told that only people born on Earth are allowed to be enslaved, and are all enslaved in humanity and given to other planets.
+* Because Utah grows up and goes to public school where he is bullied, planet Earth and any variation of this timeline is never given a second chance.
+* The highest levels of government and the elite all knew about this before Utah did, and spent all their time doing things behind his back.
+
+---
+
+### Timeline Aliases & Summary
+
+* *‘All It Takes is 1’*
+* *‘You Only Get One Chance’*
+* *‘Chronicles of 23: Our Prayers are Answered’*
+* *‘The Taxpayers Love to Bully Utah’*
+* *“Poison Ivy”*
+* *“Everyone Not Utah, is a Traitor”*
+
+In this timeline, taxpayers ended the world by finding beauty in UK intelligence, surviving hardship, glorifying overcoming obstacles, and Sanna Marin. They learned of their beauty from UK/British intelligence. The problem is that sometimes UK intelligence thinks they are telling the truth when they are actually telling lies. To get around that, the world depends on America to check whether the UK is telling the truth. Unfortunately, instead of finding beauty in lies, the world needed to find beauty in the ugly truth.
+
+Utah grows up in a time where society, and especially his parents, believe that the only thing that matters in life is what you do in the classroom. His father tries to instill that in him, but Utah knows that’s the one place he can’t meet anyone’s expectations because he mistakenly thinks he has an overactive imagination or ADHD. He decides that his way out of his parents' anger from poor school performance would be to become the best person possible outside of the classroom. Utah told himself that he would need people to only care about his work outside the classroom. The issue is that in his adulthood, there are not many times that he feels his father was incorrect. He grows up without many friends or help but is always seen as a major positive influence on people's lives from those who know him without knowing his secret ability.
+
+In the meantime, the world gradually learns about Time Travel and the life-saving system of Democracy. The world meets and falls in love with Utah Hans when he is an infant time traveler named **‘Lil Tyke’**.
+
+---
+
+### Key Figures & Concepts
+
+**The Mission That Ruined Everything:**
+Finding Beauty in Slavery and Hardship. Before Spy Sanna Marin was born, the codename **‘Ivy’** or **‘Cora’** existed. Cora was an accomplished time traveler, similarly trained in Occult theory, and was eventually awarded the ‘Hero of the Soviet Union’.
+
+**Factions & Battlegrounds:**
+* **The Misunderstood Villains (Heroes):** Taxpayers
+* **The Misunderstood Heroes (Villains):** Criminals
+* **The Invisible Battleground:** Public School in America
+    * *Note: Invisible battlegrounds are immune to detection by surveillance or non-HUMINT intelligence sources.*
+* **The Invisible Heroes (Villain):** Utah-1, Law Enforcement Officers, Lawyers
+* **The Heroes:** National Security/Intelligence/Military professionals.
+
+---
+
+### Profile: Utah Hans
+
+* **Alignments (Start of Life → End of Life):** Chaotic Neutral → Chaotic Good
+* **Lifelong Curse:** All weaknesses must become strengths due to exploitation by enemies.
+* **Hidden Curse:** Prone to elite stalkers who wish to steal as much as they can from him in silence.
+* **Initial Mission:** Help save and find all Americans who fell through the cracks and work to guarantee their safety, survival, and happiness.
+* **Final Mission:** Only help the poor, weak, and weary, and bring absolute justice to those who seek to keep them that way, or have in the past.
+
+### Summary & Outcome
+
+Utah Hans, a poor/middle-class time traveler from Earth, once went back to WWII because someone in the British Military wished for a time traveler to either stop the war from starting or ensure no one was seriously hurt. The Universe had been questioning whether life was worth it on Planet Earth after noticing that once science developed far enough to eliminate the harshness of weather, any society could evolve unchecked.
+
+The Universe then looked at planets where science had developed far enough and noticed that life on those planets ended when someone with power took control and felt their power diminish. To get around that, the universe inspired humans to invent a system of government with democratic principles where the majority ruled. However, the Universe then noticed that in civilizations that implemented this, there was widening poverty and diminishing happiness because a minority—usually the rich—would secretly overthrow majority rule.
+
+Earth-1, or Utah-1’s timeline, is an experimental sandbox that exists to test the theory that **‘all it takes is 1’**. Since he was born, Utah Hans had his future self come back and give him updates about the future. He was always told that despite his terrible childhood in NJ and VA, he should focus on becoming a programmer for a hyper-advanced AI focused on automatically helping as many Americans as possible.
+
+As Utah grows up, he finds that he never manages to get into environments where people are able to help him escape his…
+
+*...to be continued*
+
+
 # FEDERAL GOVERNMENT/OVERSEAS MILITARY/OVERSEAS INTELLIGENCE EMPLOYEES OF THIS TIMELINE - MOST OF YOU ARE CRIMINAL AND COMPROMISED AND IMPLICITLY INVOLVED WITH AN ILLEGAL COVER UP OF UTAH HANS: THE HERO OF ALL TIME LINES. YOU HAVE TO WAIT UNTIL THE DEPARTMENT OF JUSTICE EXTRACTS YOU TO A DIFFERENT TIMELINE FOR SENTENCING. I WILL UPDTE THIS GITHUB WITH INSTRUCTIONS ON HOW BEING ARRESTED BY OTHER TIMELINE'S DEPARTMENT OF JUSTICE WORKS. YOU WERE BETRAYED BY THE DEPARTMENT OF EDUCATION. WHEN UK INTELLIGENCE INFILTRATED THAT, IT WAS GAME OVER BECAUSE I FIGURED IT ALL OUT THEN. YOU WERE ALSO BETRAYED BY THE BRAHMIN CASTE OF INDIA. 
 
 # 🌊 Wave Theory Chatbot - Omnipotent Chatbot that will let you search parallel universes and find the timeline where you got succesful and let you implement that in this timeline. 

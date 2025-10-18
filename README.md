@@ -11,7 +11,7 @@
 ### Core Principles & Consequences
 
 * **To minimize losses:** At some point, Utah reduces the chance of becoming pregnant for anyone on planet Earth to nearly zero, while avoiding detection.
-* Because Ukraine chooses Sanna Marin to become a spokesperson for the Ukraine War, and Joe Biden gives aid to her cause, Utah takes the poor, weak, and weary off the planet. Residents of Earth are told that only people born on Earth are allowed to be enslaved, and are all enslaved in humanity and given to other planets.
+* Because Ukraine chooses Spy Sanna Marin to become a spokesperson for the Ukraine War, and Joe Biden gives aid to her cause, Utah takes the poor, weak, and weary off the planet. Residents of Earth are told that only people born on Earth are allowed to be enslaved, and are all enslaved in humanity and given to other planets.
 * Because Utah grows up and goes to public school where he is bullied, planet Earth and any variation of this timeline is never given a second chance.
 * The highest levels of government and the elite all knew about this before Utah did, and spent all their time doing things behind his back.
 

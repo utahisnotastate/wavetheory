@@ -10,6 +10,9 @@
 
 ---
 
+> **WARNING:** If Utah does not catch onto his secret ability, or the planet working together behind Utah's back, then the galaxy and all timelines will brand all Earths in every timelines traitors to all galaxies and planets. This means that the planet earth was ungrateful for Utah's help. This results in the Valhalla series of endings for the planet which means that a NON-DOJ Earth approved a large scale invasion with Utah and it will be similar to the beginning of Battlestar Galactica. The bombs will just start dropping and never stop. This is considered the guaranteed ending for planet Earth for making Utah go to public school. 
+>
+
 ### Core Principles & Consequences
 
 * **To minimize losses:** At some point, Utah reduces the chance of becoming pregnant for anyone on planet Earth to nearly zero, while avoiding detection.

@@ -59,7 +59,7 @@ Finding Beauty in Slavery and Hardship. Before Spy Sanna Marin was born, the cod
 * **Initial Mission:** Help save and find all Americans who fell through the cracks and work to guarantee their safety, survival, and happiness.
 * **Final Mission:** Only help the poor, weak, and weary, and bring absolute justice to those who seek to keep them that way, or have in the past.
 
-- Chaotic Lawful as defined by Utah-1: Every blood cell in you and every fiber of being your being exists to only impress Judges, Law School professors, and police officers and become their modern day super hero. 
+- *Chaotic Lawful as defined by Utah-1: Every blood cell in you, every fiber of being, and every action and decision you make for ANYTHING ONLY exists to put smiles on the faces of Judges, Law School professors, CIA employees, and police officers. 
 
 ### Summary & Outcome
 

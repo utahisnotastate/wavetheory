@@ -4,6 +4,7 @@ Combines PINN training with symbolic regression for Wave Theory discovery
 """
 
 import numpy as np
+import jax
 import jax.numpy as jnp
 from typing import Dict, List, Any, Optional, Tuple
 import logging

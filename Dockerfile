@@ -36,6 +36,8 @@ EXPOSE 8501
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
+# This image is CPU-only. JAX GPU requires a CUDA-enabled base image and installing jax[cudaXX_pip].
+# Keep cpu here; switching to gpu has no effect without a CUDA base + GPU runtime.
 ENV JAX_PLATFORM_NAME=cpu
 ENV PYTHONPATH=/app
 

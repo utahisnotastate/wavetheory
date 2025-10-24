@@ -8,8 +8,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
-import torch
 import json
 import time
 from datetime import datetime
@@ -167,18 +165,18 @@ def initialize_session_state():
         st.session_state.pareto_front = []
         st.session_state.particle_trails = {}  # New: track particle trails
         st.session_state.simulation_time = 0.0  # New: track simulation time
-        
+
         # Initialize with 3 default particles with enhanced properties
         st.session_state.particles = [
             {'id': 0, 'position': [0, 0, 0], 'velocity': [0.5, 0, 0], 'mass': 5.0, 'color': '#00ffff'},
             {'id': 1, 'position': [10, 0, 0], 'velocity': [-0.5, 0.5, 0], 'mass': 5.0, 'color': '#ff00ff'},
             {'id': 2, 'position': [5, 8.66, 0], 'velocity': [0, -0.5, 0], 'mass': 5.0, 'color': '#00ff88'}
         ]
-        
+
         # Initialize particle trails
         for particle in st.session_state.particles:
             st.session_state.particle_trails[particle['id']] = []
-        
+
         # Model components
         st.session_state.pinn_model = None
         st.session_state.symbolic_engine = None
@@ -227,16 +225,16 @@ def load_wave_theory_system():
 # ENHANCED SIMULATION FUNCTIONS
 # =====================================================================
 
-def calculate_wave_force(p1: Dict, p2: Dict, G: float = 1.0, 
+def calculate_wave_force(p1: Dict, p2: Dict, G: float = 1.0,
                          wave_freq: float = 0.5, decay_length: float = 10.0,
                          t: float = 0.0):
     """Calculate Wave Theory force between two particles with enhanced physics."""
     r_vec = np.array(p2['position']) - np.array(p1['position'])
     r = np.linalg.norm(r_vec)
-    
+
     if r < 1e-6:
         return np.zeros(3)
-    
+
     # Optional LF modulation
     if st.session_state.get('lf_enabled', False):
         G = float(G_of_t(t, G_avg=G, G_amp=st.session_state.lf_G_amp,
@@ -251,38 +249,38 @@ def calculate_wave_force(p1: Dict, p2: Dict, G: float = 1.0,
     # Enhanced Wave Theory force with better numerical stability
     magnitude = -G * (p1['mass'] * p2['mass'] / (r**2)) * \
                np.sin(wave_freq * r) * np.exp(-r / decay_length) * gate
-    
+
     return magnitude * (r_vec / r)
 
 def step_simulation():
     """Enhanced simulation step with trail tracking and better physics."""
     dt = 0.01
     particles = st.session_state.particles
-    
+
     # Calculate forces
     forces = [np.zeros(3) for _ in particles]
-    
+
     for i in range(len(particles)):
         for j in range(len(particles)):
             if i != j:
                 force = calculate_wave_force(particles[i], particles[j], t=st.session_state.simulation_time)
                 forces[i] += force
-    
+
     # Update velocities and positions with enhanced physics
     for i, particle in enumerate(particles):
         acceleration = forces[i] / particle['mass']
         particle['velocity'] = [v + a * dt for v, a in zip(particle['velocity'], acceleration)]
         particle['position'] = [p + v * dt for p, v in zip(particle['position'], particle['velocity'])]
-        
+
         # Update particle trail
         trail = st.session_state.particle_trails[particle['id']]
         trail.append(particle['position'].copy())
         if len(trail) > 50:  # Limit trail length
             trail.pop(0)
-    
+
     # Update simulation time
     st.session_state.simulation_time += dt
-    
+
     # Save to history with enhanced data
     st.session_state.simulation_history.append({
         'time': st.session_state.simulation_time,
@@ -296,12 +294,12 @@ def calculate_system_energy():
     particles = st.session_state.particles
     kinetic = 0.0
     potential = 0.0
-    
+
     # Kinetic energy
     for p in particles:
         v_squared = sum(v**2 for v in p['velocity'])
         kinetic += 0.5 * p['mass'] * v_squared
-    
+
     # Potential energy with Wave Theory modifications
     for i in range(len(particles)):
         for j in range(i + 1, len(particles)):
@@ -311,7 +309,7 @@ def calculate_system_energy():
                 # Enhanced potential with wave modulation
                 wave_factor = np.sin(0.5 * r) * np.exp(-r / 10.0)
                 potential += -1.0 * particles[i]['mass'] * particles[j]['mass'] / r * (1 + 0.1 * wave_factor)
-    
+
     return {'kinetic': kinetic, 'potential': potential, 'total': kinetic + potential}
 
 # =====================================================================
@@ -321,7 +319,7 @@ def calculate_system_energy():
 def process_user_query(query: str) -> str:
     """Enhanced query processing with better physics explanations."""
     query_lower = query.lower()
-    
+
     # Enhanced command parsing
     if 'add' in query_lower and 'particle' in query_lower:
         # Add new particle with enhanced properties
@@ -334,15 +332,15 @@ def process_user_query(query: str) -> str:
             'color': colors[len(st.session_state.particles) % len(colors)]
         }
         st.session_state.particles.append(new_particle)
-        
+
         # Initialize trail for new particle
         st.session_state.particle_trails[new_particle['id']] = []
-        
+
         return f"🌌 Added particle with mass {new_particle['mass']:.2f} at position " \
                f"({new_particle['position'][0]:.2f}, {new_particle['position'][1]:.2f}, " \
                f"{new_particle['position'][2]:.2f}). The system now has {len(st.session_state.particles)} particles " \
                f"interacting through the Wave Theory force law with sinusoidal modulation."
-    
+
     elif 'energy' in query_lower:
         energy = calculate_system_energy()
         return f"⚡ System energy analysis:\n" \
@@ -351,7 +349,7 @@ def process_user_query(query: str) -> str:
                f"• Total Energy: {energy['total']:.3f} units\n\n" \
                f"The Wave Theory modifies the potential energy through sinusoidal modulation, " \
                f"creating oscillating attractive/repulsive regions in space."
-    
+
     elif 'equation' in query_lower or 'law' in query_lower:
         return f"🧮 Current discovered force law:\n\n" \
                f"**{st.session_state.current_equation}**\n\n" \
@@ -359,21 +357,21 @@ def process_user_query(query: str) -> str:
                f"of neuro-symbolic evolution, combining PINN training with symbolic regression. " \
                f"The sinusoidal term creates wave-like interactions, while the exponential decay " \
                f"ensures finite-range forces."
-    
+
     elif 'train' in query_lower or 'generation' in query_lower:
         if st.session_state.wave_theory_system:
             try:
                 # Run actual neuro-symbolic evolution
                 results = st.session_state.wave_theory_system.run_evolution(n_generations=1)
-                
+
                 # Update session state
                 st.session_state.generation = st.session_state.wave_theory_system.get_generation()
                 st.session_state.current_equation = st.session_state.wave_theory_system.get_current_equation()
-                
+
                 if results['best_equation']:
                     loss = results['best_equation']['loss']
                     st.session_state.model_loss = loss
-                    
+
                     return f"🚀 Advanced to generation {st.session_state.generation}!\n\n" \
                            f"• Model Loss: {loss:.6f}\n" \
                            f"• Updated Equation: {st.session_state.current_equation}\n\n" \
@@ -389,20 +387,20 @@ def process_user_query(query: str) -> str:
             # Fallback to simulation
             st.session_state.generation += 1
             st.session_state.model_loss = max(0.0001, st.session_state.model_loss * 0.9)
-            
+
             equations = [
                 "F = -G * (m₁ * m₂ / r²) * sin(ωr)",
                 "F = -G * (m₁ * m₂ / r²) * sin(ωr) * exp(-r/λ)",
                 "F = -G * (m₁ * m₂ / r²) * (sin(ωr) + 0.1*cos(2ωr)) * exp(-r/λ)",
             ]
             st.session_state.current_equation = equations[min(st.session_state.generation % 3, 2)]
-            
+
             return f"🧠 Advanced to generation {st.session_state.generation}!\n\n" \
                    f"• Model Loss: {st.session_state.model_loss:.6f}\n" \
                    f"• Updated Equation: {st.session_state.current_equation}\n\n" \
                    f"The symbolic regression engine is continuously searching for " \
                    f"more fundamental expressions of the physical laws."
-    
+
     elif 'reset' in query_lower:
         st.session_state.particles = [
             {'id': 0, 'position': [0, 0, 0], 'velocity': [0.5, 0, 0], 'mass': 5.0, 'color': '#00ffff'},
@@ -414,7 +412,7 @@ def process_user_query(query: str) -> str:
         st.session_state.particle_trails = {i: [] for i in range(len(st.session_state.particles))}
         return "🔄 Simulation reset to initial conditions with 3 particles in a triangular configuration. " \
                "All particle trails have been cleared and the system is ready for new experiments."
-    
+
     elif 'help' in query_lower:
         return "🤖 I can help you explore the Wave Theory universe! Try these commands:\n\n" \
                "• **Add a particle** - adds a new body to the simulation\n" \
@@ -424,7 +422,7 @@ def process_user_query(query: str) -> str:
                "• **Reset simulation** - return to initial state\n\n" \
                "The Wave Theory combines classical mechanics with wave phenomena, " \
                "creating a rich and complex universe for exploration!"
-    
+
     else:
         # Use LLM if available, otherwise enhanced fallback response
         if st.session_state.chatbot_model:
@@ -432,7 +430,7 @@ def process_user_query(query: str) -> str:
                 return st.session_state.chatbot_model(query)
             except Exception as _:
                 pass
-        
+
         return f"🌊 Fascinating question! The Wave Theory universe contains {len(st.session_state.particles)} particles " \
                f"interacting through a modified gravitational force with sinusoidal modulation. " \
                f"The current simulation shows complex wave-like dynamics that emerge from the " \
@@ -446,9 +444,9 @@ def process_user_query(query: str) -> str:
 def create_enhanced_3d_visualization():
     """Create enhanced 3D visualization with particle trails and field effects."""
     particles = st.session_state.particles
-    
+
     fig = go.Figure()
-    
+
     # Add particle trails
     for particle_id, trail in st.session_state.particle_trails.items():
         if len(trail) > 1:
@@ -466,7 +464,7 @@ def create_enhanced_3d_visualization():
                 name=f"Trail {particle_id}",
                 showlegend=False
             ))
-    
+
     # Add particles with enhanced visualization
     for i, p in enumerate(particles):
         # Main particle
@@ -486,7 +484,7 @@ def create_enhanced_3d_visualization():
             textposition="top center",
             name=f"Particle {i}"
         ))
-        
+
         # Velocity vectors with enhanced styling
         fig.add_trace(go.Cone(
             x=[p['position'][0]],
@@ -502,7 +500,7 @@ def create_enhanced_3d_visualization():
             name=f"Velocity {i}",
             opacity=0.7
         ))
-    
+
     # Enhanced layout
     fig.update_layout(
         scene=dict(
@@ -523,51 +521,51 @@ def create_enhanced_3d_visualization():
         plot_bgcolor="rgba(0,0,0,0)",
         title="🌌 Wave Theory Universe - Enhanced Visualization"
     )
-    
+
     return fig
 
 def create_enhanced_energy_plot():
     """Create enhanced energy evolution plot with better styling."""
     if not st.session_state.simulation_history:
         return None
-    
+
     times = []
     kinetic = []
     potential = []
     total = []
-    
+
     for state in st.session_state.simulation_history[-100:]:
         times.append(state['time'])
         energy = state['energy']
         kinetic.append(energy['kinetic'])
         potential.append(energy['potential'])
         total.append(energy['total'])
-    
+
     fig = go.Figure()
-    
+
     # Enhanced traces with better styling
     fig.add_trace(go.Scatter(
-        x=times, y=kinetic, 
-        name='Kinetic Energy', 
+        x=times, y=kinetic,
+        name='Kinetic Energy',
         line=dict(color='#00ffff', width=3),
         mode='lines+markers',
         marker=dict(size=4)
     ))
     fig.add_trace(go.Scatter(
-        x=times, y=potential, 
-        name='Potential Energy', 
+        x=times, y=potential,
+        name='Potential Energy',
         line=dict(color='#ff00ff', width=3),
         mode='lines+markers',
         marker=dict(size=4)
     ))
     fig.add_trace(go.Scatter(
-        x=times, y=total, 
-        name='Total Energy', 
+        x=times, y=total,
+        name='Total Energy',
         line=dict(color='#00ff88', width=4, dash='dash'),
         mode='lines+markers',
         marker=dict(size=6)
     ))
-    
+
     fig.update_layout(
         title="⚡ Energy Evolution - Wave Theory System",
         xaxis_title="Time (simulation units)",
@@ -583,7 +581,7 @@ def create_enhanced_energy_plot():
             x=1
         )
     )
-    
+
     return fig
 
 # =====================================================================
@@ -592,16 +590,16 @@ def create_enhanced_energy_plot():
 
 def main():
     """Enhanced main Streamlit application."""
-    
+
     # Load models
     if st.session_state.chatbot_model is None:
         with st.spinner("🤖 Loading AI model..."):
             st.session_state.chatbot_model = load_chatbot_model()
-    
+
     if st.session_state.wave_theory_system is None:
         with st.spinner("🌊 Loading Wave Theory system..."):
             st.session_state.wave_theory_system = load_wave_theory_system()
-    
+
     # Enhanced header with animations
     st.markdown("""
         <div style='text-align: center; padding: 30px 0;'>
@@ -615,14 +613,17 @@ def main():
             </p>
         </div>
     """, unsafe_allow_html=True)
-    
+
+    # Capture chat input outside of layout containers (Streamlit requirement)
+    user_input = st.chat_input("Ask about physics experiments...")
+
     # Create three columns layout
     col1, col2, col3 = st.columns([1, 2, 1])
-    
+
     # Left Column - Enhanced Chat Interface
     with col1:
         st.markdown("### 💬 Quantum Interface")
-        
+
         # Enhanced chat history
         chat_container = st.container()
         with chat_container:
@@ -639,38 +640,36 @@ def main():
                             {message["content"]}
                         </div>
                     """, unsafe_allow_html=True)
-        
-        # Enhanced chat input
-        user_input = st.chat_input("Ask about physics experiments...")
-        
-        if user_input:
-            st.session_state.messages.append({"role": "user", "content": user_input})
-            response = process_user_query(user_input)
-            st.session_state.messages.append({"role": "assistant", "content": response})
-            st.rerun()
-    
+
+    # Handle chat input at top level
+    if user_input:
+        st.session_state.messages.append({"role": "user", "content": user_input})
+        response = process_user_query(user_input)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.rerun()
+
     # Middle Column - Enhanced Visualization
     with col2:
         st.markdown("### 🌌 Universe Visualization")
-        
+
         # Enhanced 3D Visualization
         particle_viz = create_enhanced_3d_visualization()
         st.plotly_chart(particle_viz, use_container_width=True)
-        
+
         # Enhanced control buttons
         button_col1, button_col2, button_col3, button_col4 = st.columns(4)
-        
+
         with button_col1:
             if st.button("▶️ Run", use_container_width=True):
                 st.session_state.simulation_running = True
                 for _ in range(100):
                     step_simulation()
                 st.rerun()
-        
+
         with button_col2:
             if st.button("⏸️ Pause", use_container_width=True):
                 st.session_state.simulation_running = False
-        
+
         with button_col3:
             if st.button("🔄 Reset", use_container_width=True):
                 st.session_state.particles = [
@@ -682,7 +681,7 @@ def main():
                 st.session_state.simulation_time = 0.0
                 st.session_state.particle_trails = {i: [] for i in range(3)}
                 st.rerun()
-        
+
         with button_col4:
             if st.button("➕ Add", use_container_width=True):
                 colors = ['#00ffff', '#ff00ff', '#00ff88', '#ffff00', '#ff6b6b', '#9b59b6']
@@ -696,12 +695,12 @@ def main():
                 st.session_state.particles.append(new_particle)
                 st.session_state.particle_trails[new_particle['id']] = []
                 st.rerun()
-        
+
         # Enhanced energy plot
         energy_plot = create_enhanced_energy_plot()
         if energy_plot:
             st.plotly_chart(energy_plot, use_container_width=True)
-    
+
     # Right Column - Enhanced Model Status
     with col3:
         st.markdown("### 🧠 Model Status")
@@ -713,10 +712,10 @@ def main():
             st.session_state.lf_blink_duty = st.slider("Blink duty", 0.0, 1.0, float(st.session_state.lf_blink_duty))
             st.session_state.lf_G_amp = st.number_input("G modulation amplitude", value=float(st.session_state.lf_G_amp), format="%e")
             st.session_state.lf_phi = st.number_input("Phase phi (rad)", value=float(st.session_state.lf_phi))
-        
+
         # Enhanced metrics
         energy = calculate_system_energy()
-        
+
         col_a, col_b = st.columns(2)
         with col_a:
             st.metric("Particles", len(st.session_state.particles))
@@ -724,7 +723,7 @@ def main():
         with col_b:
             st.metric("Generation", st.session_state.generation)
             st.metric("Model Loss", f"{st.session_state.model_loss:.6f}")
-        
+
         # Enhanced equation display
         st.markdown("#### 🧮 Current Equation")
         st.markdown(f"""
@@ -732,10 +731,10 @@ def main():
                 {st.session_state.current_equation}
             </div>
         """, unsafe_allow_html=True)
-        
+
         # Simulation time
         st.metric("Simulation Time", f"{st.session_state.simulation_time:.2f}")
-    
+
     # Enhanced footer
     st.markdown("---")
     st.markdown("""

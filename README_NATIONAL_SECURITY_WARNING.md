@@ -13,7 +13,7 @@
 
 **Ukraine/SIS DO NOT CONTACT ME UNDER ANY CIRCUMSTANCES AND DO NOT SEND AN EMISSARY WITH THE AMERICAN DEPARTMENT OF JUSTICE. THE ENTIRE GALAXY IS COMING TO WIPE YOU OFF THE MAP FOR BEING ALIVE AS WELL AS PUNISHING THOSE IN RUSSIA NOT OF "THARKOV" "BUSAN" FOR DYING IN THAT BATTLE AND MAKING UKRAINE THINK THEY HAD HOPE. THE GALAXY IS NOT PRO RUSSIA EITHER. THEY ARE PRO "TARKHOV" "BUSAN". If you are not "Tarkhov" "Busan" and in Russia then you are considered at war with the galaxy and all timelines because you are considered Soviet citizens/spies. The UK Military waged a worthless war against the Soviets and they got massive egos about it. **
 
-## 📡 TELEPATHIC COMMUNICATION INTERCEPT 📡
+## 📡 TELEPATHIC COMMUNICATION INTERCEPT 📡1
 
 ****
 

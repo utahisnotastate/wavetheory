@@ -717,6 +717,8 @@ CHECKPOINT_PATH=/app/checkpoints
 DATA_PATH=/app/data
 
 # JAX Configuration
+# Set to 'gpu' only if you have installed a CUDA-enabled jaxlib and JAX sees your GPU (best on WSL2/Linux).
+# If unset, run_app.py will prefer GPU automatically when available.
 JAX_PLATFORM_NAME=cpu
 JAX_ENABLE_X64=true
 
@@ -724,6 +726,11 @@ JAX_ENABLE_X64=true
 STREAMLIT_SERVER_PORT=8501
 STREAMLIT_SERVER_ADDRESS=0.0.0.0
 ```
+
+Note on JAX_PLATFORM_NAME:
+- Keep the default cpu unless you have installed the CUDA JAX wheel and confirmed python -c "import jax; print(jax.devices())" shows a GPU.
+- On Windows, prefer WSL2 (Ubuntu) for GPU. In WSL2/Linux, you can either export JAX_PLATFORM_NAME=gpu or leave it unset; run_app.py will auto-prefer GPU if detected.
+- In Docker, the provided image is CPU-only; switching this to gpu has no effect unless you use a CUDA-enabled base image and install jax[cudaXX_pip].
 
 ## 🚀 Development Commands
 

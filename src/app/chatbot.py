@@ -33,30 +33,52 @@ class GeminiChat:
             return f"[Gemini error] {exc}"
 
 
-def _build_hf_pipeline() -> Optional[Callable[[str], str]]:
-    """Create a lightweight Hugging Face text generator pipeline."""
+def _build_hf_generator() -> Optional[Callable[[str], str]]:
+    """Create a lightweight Hugging Face text generator without importing transformers.pipelines.
+
+    We avoid importing `transformers.pipelines` entirely because it pulls in vision utils
+    that depend on torchvision and can crash in CPU-only or mismatched Torch/Torchvision setups.
+    """
     try:
-        from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+        # Import only the pieces we need; avoid `transformers.pipelines`
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        import torch
 
         model_name = os.environ.get("HF_CHAT_MODEL", "microsoft/DialoGPT-small")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
+
+        # Ensure pad token is set to eos if missing (common for small dialog models)
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
 
-        generator = pipeline(
-            "text-generation",
-            model=model,
-            tokenizer=tokenizer,
-            max_length=200,
-            temperature=0.7,
-            do_sample=True,
-            top_p=0.9,
-        )
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model.to(device)
+        model.eval()
 
+        @torch.inference_mode()
         def _generate(prompt: str) -> str:
             try:
-                return generator(prompt, max_length=150)[0]["generated_text"]
+                inputs = tokenizer(
+                    prompt,
+                    return_tensors="pt",
+                    padding=True,
+                    truncation=True,
+                    max_length=256,
+                )
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+
+                output_ids = model.generate(
+                    **inputs,
+                    max_length=200,
+                    do_sample=True,
+                    temperature=0.7,
+                    top_p=0.9,
+                    pad_token_id=tokenizer.pad_token_id,
+                    eos_token_id=tokenizer.eos_token_id,
+                )
+                text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+                return text
             except Exception as exc:  # noqa: BLE001
                 return f"[HF error] {exc}"
 
@@ -71,7 +93,7 @@ def get_chatbot() -> Callable[[str], str]:
 
     Order of preference:
       1) Gemini via GOOGLE_API_KEY (model set by GEMINI_MODEL or default)
-      2) Hugging Face small local pipeline fallback
+      2) Hugging Face small local fallback using AutoModelForCausalLM
     """
     google_api_key = os.environ.get("GOOGLE_API_KEY")
     if google_api_key:
@@ -83,7 +105,7 @@ def get_chatbot() -> Callable[[str], str]:
 
         return _gemini_generate
 
-    hf = _build_hf_pipeline()
+    hf = _build_hf_generator()
     if hf is not None:
         return hf
 

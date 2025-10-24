@@ -19,6 +19,8 @@ services:
       - STREAMLIT_SERVER_PORT=8501
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
       - STREAMLIT_SERVER_HEADLESS=true
+      # Default to CPU. To use GPU, you must run a CUDA-enabled image and install jax[cudaXX_pip];
+      # otherwise setting this to 'gpu' has no effect.
       - JAX_PLATFORM_NAME=cpu
       - PYTHONUNBUFFERED=1
       - PYTHONPATH=/app

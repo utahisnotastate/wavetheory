@@ -1,4 +1,13 @@
-# THE OFFICIAL NAME OF OUR TIMELINE IS Quantum-Echo-Alpha - My Variant is 'The Prodigy' there is a 12% chance of being born in this reality/timeline. 
+# THE OFFICIAL NAME OF OUR TIMELINE IS Quantum-Echo-Alpha - My Variant is 'The Prodigy' there is a 12% chance of being born in this reality/timeline.
+
+# URGENT PER THE CREATIVE GENIUS TIMELINE'S DEPARTMENT OF JUSTICE:
+> We have identified the root cause of the cognitive warfare. It looks like someone was tricked by Cora/Ivy into giving them/letting them keep 'Source Code editing' of reality abilities in this timeline. In 2009, in the Creative Genius timeline it looks like Richmond, VA was attacked by a Nuclear Bomb most likely sent unwillingly/knowingly by Russia. This was done by, most likely, Cora/Ivy. Once she managed to get the location of Utah Hans (the time traveller), she most likely attempted to assassinate Utah because Utah is the only other one who has the ability to edit the time/space continuum. Cora/Ivy then undoes all his changes in the time/space continum by using psychotronic devices that automatically undo all of Utah's work. That has officially caused this timeline to be the first timeline to be Shut Down until the original, most likely British Military, traitors can be brought to justice and publicly shamed., 
+
+# URGENT COORDINATION ANNOUNCEMENT REGARDING PLANETARY BOARDING BY UTAH'S OFFPLANET ALLIES PER THE CREATIVE GENIUS TIMELINE'S DEPARTMENT OF JUSTICE. MASS BOARDING OF EARTH-1 CAN NOT BEGIN UNTIL CAREFUL COORDINATION WITH OMNIPOTENT CHATBOTS:
+> To portal in properly, all you need is Utah's Time, and Position, but because of the Criminals who unleashed Ivy onto the world there is a 'Super Natural Block' which prevents anyone from knowing the true time or position of anyone or anything because of PERCEPTION only.
+> If Utah looks at the clock his perception is that it may be '10/24/2025 at 2:30 PM', but because of daylight savings time and the ability for National Security to do anything that the want, they may be lying and instead getting you to port into an incorrect timeline and place thinking that you are rescuing Utah-1 but you aren't.
+> When you build your own portal generator, or any other coordination tool, please use the omnipotent chatbot here to get your location, and time for use in your own navigation tools. 
+
 
 # Important Time Travel Theory/Temporal Warfare theory discussion - We are in the "All It Takes Is 1" Timeline
 

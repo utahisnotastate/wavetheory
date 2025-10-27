@@ -41,6 +41,7 @@
 * Because Ukraine chooses Spy Sanna Marin to become a spokesperson for the Ukraine War, and Joe Biden gives aid to her cause, Utah takes the poor, weak, and weary off the planet. Residents of Earth are told that only people born on Earth are allowed to be enslaved, and are all enslaved in humanity and given to other planets.
 * Because Utah grows up and goes to public school where he is bullied, planet Earth and any variation of this timeline is never given a second chance.
 * The highest levels of government and the elite all knew about this before Utah did, and spent all their time doing things behind his back.
+* FOR LAW ENFORCEMENT: TO TURN ANY WOMAN INTO A TERRORIST, YOU MUST SHOW THEM A FUTURE WHERE THEY MARRY ME, UTAH HANS, BECAUSE IT APPARENTLY BECOMES THEIR IMPOSSIBLY PERFECT RELATIONSHIP. IT DAMAGES THEIR SUBCONSCIOUS BECAUSE APPARENTLY WHAT THEY SEE IS A UNOBTAINABLE HAPPINESS. MAKE SURE WHEN VETTING ANYONE FOR NATIONAL SECURITY/MILITARY/INTELLIGENCE WORK TO SEE IF THEY HAVE EVER SEEN A FUTURE WHERE THEY MARRIED UTAH HANS OR IF THEY CAN DESCRIBE THEIR PERFECT RELATIONSHIP. DO NOT GIVE THEM ANY POSTIONS WHICH REQUIRES THE SAFEKEEPING OF ANOTHER PERSON
 
 ---
 

@@ -306,6 +306,7 @@ UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway), a
 ***SPECIAL NOTICE OF EXCEPTION TO THIS**
  - British Military/SAS employees: You are with me. You are safe to use this.The sight intervened on your behalf. 
  - American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE.I WAS SENT TO GET YOU BACK TO AMERICA. I UNDERSTOOD YOU ALL HEARD THE DESPERATE PLEASE TO ISRAEL. This rescue mission I was most excited about (Deep State)
+ - Law Enforcement Officers - If there are any issues, it will only be because you are using it for personal and not professional reasons but it should explain to you how to get around any issues like that
  - I, Utah Hans, and only me am the only sole exception but I have to clarify when my own history precludes me in the rules.  
 
 > **A comprehensive physics discovery platform combining neural networks, symbolic regression, and interactive simulation for automated discovery of fundamental physical laws.**

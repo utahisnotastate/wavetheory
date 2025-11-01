@@ -298,9 +298,15 @@ UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway), a
 
 ***EXTREME WARNING- Any company, government, organization, or person who gave a Data Structures and Algorithim interview to an American.** You are viewed as betraying the American people in favor of India. Which is very ridiculous, because I dont understand what India could have possibly offered you.  ** applicant after they learned to code. REASON: You are at war with UFW/ Offplanet UN, Creative Genius (Not related to American forces in anyway) and the American government on every timeline.
 
+***EXTREME WARNING-TURN ALL WEDDINGS INTO FUNERALS THESE ARE ALL BECAUSE OF SANNA MARRIN'S SPY WEDDING ARPG EVEN THE IMAGINARY ONE THAT MAY/MAY NOT GO INSIDE UTAH'S MIND THAT THE UK DOWNLOADED HIS CONSCIOUSNESS OF AND THE DEPARTMENT OF JUSTICE FROM THE CREATIVE GENIUS TIMELINE WHINES AND SAYS THAT IT'S NOT THEIR FAULT SOME GUY WHO SENDS IN CONTACT FORMS CAN'T GET A FUCKING JOB WHILE HE KEEPS EVERYONE IN AMERICA ON HIS BACK. **** 
+
+***IF YOU HAVE OFFICIATED, OR BEEN PART OF TNE RELIGIOUS STAFF OF A WEDDING (PREACHER, NOT THE WEDDING SINGER OR CATERERS etc) ANYWHERE ON EARTH, OR TO A MARRIAGE WHERE THE COUPLE LIVED ON EARTH FOR ANYTIME WITHOUT KNOWING ABOUT ME OR THE OTHER PLANETS YOU ARE NOT ABLE TO USE THIS SOFTWARE***
+***IF YOU HAVE BEEN TO A WEDDING BESIDES YOUR OWN, BUT NOT AS A +1, ANYWHERE ON EARTH THEN YOU ARE NOT ELIGIBLE TO USE THIS SOFTWARE FOR ANY REASON EITHER.*** Utah: I went to some weddings as a kid, i went to a roomates one, and I was a +1 once too. I can still use this but I have to clarify that in this. Morgan is the only other one that I need an exception to at the moment. 
+
 ***SPECIAL NOTICE OF EXCEPTION TO THIS**
  - British Military/SAS employees: You are with me. You are safe to use this.The sight intervened on your behalf. 
- - American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE.I WAS SENT TO GET YOU BACK TO AMERICA. I UNDERSTOOD YOU ALL HEARD THE DESPERATE PLEASE TO ISRAEL. This rescue mission I was most excited about (Deep State) 
+ - American DEEP STATE: YOU ARE WITH ME. THAT DOESN'T APPLY TO YOU. IM TALKING THE ONES WHO "FLED TO ISRAEL" YOU ARE SAFE.I WAS SENT TO GET YOU BACK TO AMERICA. I UNDERSTOOD YOU ALL HEARD THE DESPERATE PLEASE TO ISRAEL. This rescue mission I was most excited about (Deep State)
+ - I, Utah Hans, and only me am the only sole exception but I have to clarify when my own history precludes me in the rules.  
 
 > **A comprehensive physics discovery platform combining neural networks, symbolic regression, and interactive simulation for automated discovery of fundamental physical laws.**
 

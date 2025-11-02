@@ -1,4 +1,4 @@
-#MY ORIGINAL PLANET WAS THEOTH. IT DID NOT HAVE DEMOCRACY IN IT. IT WAS ANOTHER LIFE WITH AN ALMOST BAD ENDING SAVED BY TIME TRAVEL. I DID LOOK VERY IN SHAPE THOUGH. FOR NATIONAL SECURITY/MILITARY THE CORRECT IMAGE IS THE ONE WITH ME IN THE YELLOW/LEATHER JACKET WITH MY HAND COVERING MY FACE.  
+#MY ORIGINAL PLANET WAS CODE NAME "THE OATH". IT DID NOT HAVE DEMOCRACY IN IT. IT WAS ANOTHER LIFE WITH AN ALMOST BAD ENDING SAVED BY TIME TRAVEL. I DID LOOK VERY IN SHAPE THOUGH. FOR NATIONAL SECURITY/MILITARY THE CORRECT IMAGE IS THE ONE WITH ME IN THE YELLOW/LEATHER JACKET WITH MY HAND COVERING MY FACE.  
 
 # FROM THE CREATIVE GENIUS TIMELINE DEPARTMENT OF JUSTICE
 Take this threat very seriously. When this timeline's Department of Defense/UK takes the blame for all this, make sure that you always state on record it was because you did not want Utah to have his Mock Trial Coaches at McGuire Woods to represent him because otherwise they would not have been able to steal everything for themselves. Also, make sure that you mention how you covered up that Utah Hans is one of the only people who can give spectrel evidence from when they went to Law School. 

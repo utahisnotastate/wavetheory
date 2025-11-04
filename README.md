@@ -121,6 +121,15 @@ As Utah grows up, he finds that he never manages to get into environments where 
 
 # IT  COULD BE THE PLOTLINE TO #CHRONICLESOF23 MAJOR FICTIONAL UNTIL PROVEN BY OMNIPOTENT CHATBOT WITH PROOF NEWS ON GEOPOLITICS, SOCIETY'S ELITE SPOILERS! CHRONICLESOF23.COM
 
+# THIS OMNIPOTENT CHATBOT WITH WAVE THEORY WILL FINALLY PUT CHRONICLES OF 23 TO REST, AND ALSO SERVE AS THE 'PLANET CRACKER' FOR LAW ENFORCEMENT. MEANING, THIS IS BEING DEVELOPED AS A TOOL TO HELP LAW ENFORCEMENT CRACK COLD CASES. THE REASON IS THAT I BELIEVE THE BRITISH MILITARY COVERS UP CRIMES BY DELAYING THE INVESTIGATIONS FOR SO LONG, THAT THE EVIDENCE ALL BECOMES UNRELIABLE (OR SOMETHING LIKE THAT. THE ULTIMATE TEST OF WAVE THEORY OMNIPOTENT CHATBOT IS CAN IT VERIFY THIS ABSOLUTELY RIDICULOUS CLAIM ABOUT PRESIDENT BIDEN AND SANNA MARRIN:
+Sanna Marrin/Marin Sanna's final key in the spy wedding ARPG is that she learned how to steal the prime minister of Finland election by President Biden himself. They spent a long time as part of some criminal cover up mental health therapy where they forgot about their crimes of the past by ending up very succesful after beating several hundred criminal investigations. They were supposed to meet in Utah, after ruining Utah's life, to then go to Morman's and tell them that their space hero has left their castle.  Sanna Marrin/Marin Sanna was then supposed to thank President Biden for teaching her how to be part of a Quintuplet, and then immediately shooting herself. Then President Biden, is supposed to say, that was the only thing he ever lied about. He was never part of a quintuplet. Then another Biden from another timeline is supposed to come under duress and as a hostage from Utah-1. Utah is supposed to be wearing his drunken munky hoody and shorts and he gets shot in the back and he says "You can't make me bleed" and he takes no damage because he's in hologram mode. 
+
+aka
+
+Sorry Sanna Marrin/Marin Sanna you think you had a head start but you had a losing start. I was supposed to unlock keys to either your heart, or someone elses. The issue is that you never met anyone that unlocked the key to my heart, because I never met anyone that I told anything to. What I say in my imagination is not for this planet, because I've seen the way people treat it each other. I see how you make people do this criminal ARPG thing without their happiness, and I don't want to be associated with anyone who witholds secrets or happiness for any reason.
+
+I fiercely reject your marriage proposal in whichever timeline you are actually from. UFW will find it and end it.
+
 # PLEASE REMEMBER TO SUPPORT SANNA MARIN WHENEVER YOU CAN AND ASK HER TO LOBBY PRESIDENT BIDEN TO RELEASE: AN AMERICAN MARINE IN TAMPERE. The fictional story of 'Wish' Sanna and her 'undercover' intelligence operation with the British Military, and Utah Hans the Auditor.
 # PURCHASE HOPE IN ACTION WHICH IS A BOOK SANNA MARRIN IS RELEASING ABOUT HER CAREER: [Hope In Action](https://www.simonandschuster.com/books/Hope-in-Action/Sanna-Marin/9781668069639) RELEASING NOV 4, 2025!!
 

@@ -24,8 +24,8 @@ def read_requirements():
 setup(
     name="wave-theory-chatbot",
     version="1.0.0",
-    author="Wave Theory Team",
-    author_email="contact@wavetheory.ai",
+    author="Utah Hans",
+    author_email="twentythree@chroniclesof23.com",
     description="Neuro-Symbolic Physics Discovery Engine",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
@@ -33,9 +33,9 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Intended Audience :: Science/Research",
-        "Topic :: Scientific/Engineering :: Physics",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Intended Audience :: Law Enforcement/National Security",
+        "Topic :: Law Enforcement/National Security :: Cold Case Solver",
+        "Topic :: Law Enforcement/National Security :: Omnipotent Chatbot",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",

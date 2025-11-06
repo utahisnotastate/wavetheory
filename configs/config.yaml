@@ -36,20 +36,20 @@ neural_network:
     hidden_layers: 6
     neurons_per_layer: 128
     activation: "tanh"
-  
+
   training:
     learning_rate: 0.001
     lr_decay_rate: 0.99
     lr_decay_steps: 1000
     batch_size: 256
     n_epochs: 10000
-    
+
   loss_weights:
     data: 1.0
     physics: 1.0
     boundary: 1.0
     initial: 1.0
-    
+
   collocation:
     n_points: 10000
     adaptive_sampling: true
@@ -61,16 +61,16 @@ symbolic_regression:
   max_size: 20
   max_depth: 10
   n_iterations: 100
-  
+
   operators:
     binary: ["+", "-", "*", "/", "^"]
     unary: ["sin", "cos", "exp", "log", "sqrt", "tanh"]
-  
+
   quality_diversity:
     use_frequency: true
     adaptive_parsimony: 20.0
     parsimony: 0.0032
-  
+
   optimization:
     algorithm: "BFGS"
     n_restarts: 2
@@ -78,11 +78,11 @@ symbolic_regression:
     iterations: 8
 
 chatbot:
-  model: "microsoft/DialoGPT-small"
+  model: "gemini-2.5-pro"
   max_length: 200
   temperature: 0.7
   top_p: 0.9
-  
+
 logging:
   level: "INFO"
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

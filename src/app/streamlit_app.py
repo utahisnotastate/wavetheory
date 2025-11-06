@@ -445,6 +445,8 @@ def create_loss_history_plot():
 
     return fig
 
+from pages.eeg_page import eeg_page
+
 # =====================================================================
 # MAIN STREAMLIT APP
 # =====================================================================
@@ -453,12 +455,12 @@ def main():
     """Main Streamlit application."""
 
     # Load chatbot model
-    if st.session_state.chatbot_model is None:
+    if 'chatbot_model' not in st.session_state or st.session_state.chatbot_model is None:
         with st.spinner("Loading AI model..."):
             st.session_state.chatbot_model = load_chatbot_model()
 
     # Load Wave Theory system
-    if st.session_state.wave_theory_system is None:
+    if 'wave_theory_system' not in st.session_state or st.session_state.wave_theory_system is None:
         with st.spinner("Loading Wave Theory system..."):
             st.session_state.wave_theory_system = load_wave_theory_system()
 
@@ -473,153 +475,161 @@ def main():
         </p>
     """, unsafe_allow_html=True)
 
-    # Create three columns layout
-    col1, col2, col3 = st.columns([1, 2, 1])
+    # Create tabs
+    tab1, tab2 = st.tabs(["Chatbot", "Wish Machine"])
 
-    # Left Column - Chat Interface
-    with col1:
-        st.markdown("### 💬 Quantum Interface")
+    with tab1:
+        # Create three columns layout
+        col1, col2, col3 = st.columns([1, 2, 1])
 
-        # Chat history container
-        chat_container = st.container()
-        with chat_container:
-            for message in st.session_state.messages:
-                with st.chat_message(message["role"]):
-                    st.write(message["content"])
-
-        # Chat input
-        user_input = st.chat_input("Ask about physics experiments...")
-
-        if user_input:
-            # Add user message
-            st.session_state.messages.append({"role": "user", "content": user_input})
-
-            # Process query and get response
-            response = process_user_query(user_input)
-
-            # Add assistant response
-            st.session_state.messages.append({"role": "assistant", "content": response})
-
-            # Rerun to update chat display
-            st.rerun()
-
-    # Middle Column - Visualization
-    with col2:
-        st.markdown("### 🌌 Universe Visualization")
-
-        # 3D Particle Visualization
-        particle_viz = create_3d_particle_visualization()
-        st.plotly_chart(particle_viz, use_container_width=True)
-
-        # Control buttons
-        button_col1, button_col2, button_col3, button_col4 = st.columns(4)
-
-        with button_col1:
-            if st.button("▶️ Run", use_container_width=True):
-                st.session_state.simulation_running = True
-                for _ in range(100):
-                    step_simulation()
-                st.rerun()
-
-        with button_col2:
-            if st.button("⏸️ Pause", use_container_width=True):
-                st.session_state.simulation_running = False
-
-        with button_col3:
-            if st.button("🔄 Reset", use_container_width=True):
-                st.session_state.particles = [
-                    {'id': 0, 'position': [0, 0, 0], 'velocity': [0.5, 0, 0], 'mass': 5.0},
-                    {'id': 1, 'position': [10, 0, 0], 'velocity': [-0.5, 0.5, 0], 'mass': 5.0},
-                    {'id': 2, 'position': [5, 8.66, 0], 'velocity': [0, -0.5, 0], 'mass': 5.0}
-                ]
-                st.session_state.simulation_history = []
-                st.rerun()
-
-        with button_col4:
-            if st.button("➕ Add", use_container_width=True):
-                new_particle = {
-                    'id': len(st.session_state.particles),
-                    'position': [np.random.uniform(-10, 10) for _ in range(3)],
-                    'velocity': [np.random.uniform(-1, 1) for _ in range(3)],
-                    'mass': np.random.uniform(3, 8)
-                }
-                st.session_state.particles.append(new_particle)
-                st.rerun()
-
-        # Energy plot
-        energy_plot = create_energy_plot()
-        if energy_plot:
-            st.plotly_chart(energy_plot, use_container_width=True)
-
-    # Right Column - Model Status
-    with col3:
-        st.markdown("### 🧠 Model Status")
-
-        # Metrics
-        energy = calculate_system_energy()
-
-        st.metric("Particles", len(st.session_state.particles))
-        st.metric("Total Energy", f"{energy['total']:.3f}")
-        st.metric("Generation", st.session_state.generation)
-        st.metric("Model Loss", f"{st.session_state.model_loss:.6f}")
-
-        # Current equation display
-        st.markdown("#### Current Equation")
-        st.markdown(f"""
-            <div class='equation-box'>
-                {st.session_state.current_equation}
-            </div>
-        """, unsafe_allow_html=True)
-
-        # Training loss plot
-        loss_plot = create_loss_history_plot()
-        if loss_plot:
-            st.plotly_chart(loss_plot, use_container_width=True)
-
-    # Expandable sections for advanced features
-    with st.expander("🔬 Advanced Settings"):
-        st.markdown("### Physics Parameters")
-
-        col1, col2 = st.columns(2)
+        # Left Column - Chat Interface
         with col1:
-            G = st.slider("Gravitational Constant", 0.1, 5.0, 1.0, 0.1)
-            wave_freq = st.slider("Wave Frequency", 0.1, 2.0, 0.5, 0.1)
+            st.markdown("### 💬 Quantum Interface")
+
+            # Chat history container
+            chat_container = st.container()
+            with chat_container:
+                if "messages" in st.session_state:
+                    for message in st.session_state.messages:
+                        with st.chat_message(message["role"]):
+                            st.write(message["content"])
+
+            # Chat input
+            user_input = st.chat_input("Ask about physics experiments...")
+
+            if user_input:
+                # Add user message
+                st.session_state.messages.append({"role": "user", "content": user_input})
+
+                # Process query and get response
+                response = process_user_query(user_input)
+
+                # Add assistant response
+                st.session_state.messages.append({"role": "assistant", "content": response})
+
+                # Rerun to update chat display
+                st.rerun()
+
+        # Middle Column - Visualization
         with col2:
-            decay_length = st.slider("Decay Length", 5.0, 20.0, 10.0, 1.0)
-            dt = st.slider("Time Step", 0.001, 0.1, 0.01, 0.001)
+            st.markdown("### 🌌 Universe Visualization")
 
-        st.markdown("### Neural Network Architecture")
-        layers = st.number_input("Hidden Layers", 4, 12, 6)
-        neurons = st.number_input("Neurons per Layer", 32, 256, 128)
+            # 3D Particle Visualization
+            particle_viz = create_3d_particle_visualization()
+            st.plotly_chart(particle_viz, use_container_width=True)
 
-        st.markdown("### Symbolic Regression")
-        populations = st.number_input("Populations", 5, 30, 15)
-        max_complexity = st.slider("Max Equation Complexity", 10, 50, 20)
+            # Control buttons
+            button_col1, button_col2, button_col3, button_col4 = st.columns(4)
 
-    with st.expander("📊 Pareto Front"):
-        st.markdown("### Discovered Equations (Accuracy vs Complexity)")
+            with button_col1:
+                if st.button("▶️ Run", use_container_width=True):
+                    st.session_state.simulation_running = True
+                    for _ in range(100):
+                        step_simulation()
+                    st.rerun()
 
-        # Generate sample Pareto front data
-        pareto_data = pd.DataFrame({
-            'Complexity': [5, 8, 12, 15, 20, 25],
-            'Loss': [0.05, 0.03, 0.02, 0.015, 0.012, 0.011],
-            'Equation': [
-                'r^(-2)',
-                'sin(r) * r^(-2)',
-                'sin(ωr) * r^(-2)',
-                'sin(ωr) * exp(-r/λ) * r^(-2)',
-                'sin(ωr) * exp(-r/λ) * r^(-2) * m1 * m2',
-                'Complex equation with 25 nodes'
-            ]
-        })
+            with button_col2:
+                if st.button("⏸️ Pause", use_container_width=True):
+                    st.session_state.simulation_running = False
 
-        fig = px.scatter(pareto_data, x='Complexity', y='Loss',
-                        hover_data=['Equation'], log_y=True,
-                        title="Pareto Front of Discovered Equations")
-        fig.update_traces(marker=dict(size=10, color='cyan'))
-        st.plotly_chart(fig, use_container_width=True)
+            with button_col3:
+                if st.button("🔄 Reset", use_container_width=True):
+                    st.session_state.particles = [
+                        {'id': 0, 'position': [0, 0, 0], 'velocity': [0.5, 0, 0], 'mass': 5.0},
+                        {'id': 1, 'position': [10, 0, 0], 'velocity': [-0.5, 0.5, 0], 'mass': 5.0},
+                        {'id': 2, 'position': [5, 8.66, 0], 'velocity': [0, -0.5, 0], 'mass': 5.0}
+                    ]
+                    st.session_state.simulation_history = []
+                    st.rerun()
 
-        st.dataframe(pareto_data)
+            with button_col4:
+                if st.button("➕ Add", use_container_width=True):
+                    new_particle = {
+                        'id': len(st.session_state.particles),
+                        'position': [np.random.uniform(-10, 10) for _ in range(3)],
+                        'velocity': [np.random.uniform(-1, 1) for _ in range(3)],
+                        'mass': np.random.uniform(3, 8)
+                    }
+                    st.session_state.particles.append(new_particle)
+                    st.rerun()
+
+            # Energy plot
+            energy_plot = create_energy_plot()
+            if energy_plot:
+                st.plotly_chart(energy_plot, use_container_width=True)
+
+        # Right Column - Model Status
+        with col3:
+            st.markdown("### 🧠 Model Status")
+
+            # Metrics
+            energy = calculate_system_energy()
+
+            st.metric("Particles", len(st.session_state.particles))
+            st.metric("Total Energy", f"{energy['total']:.3f}")
+            st.metric("Generation", st.session_state.generation)
+            st.metric("Model Loss", f"{st.session_state.model_loss:.6f}")
+
+            # Current equation display
+            st.markdown("#### Current Equation")
+            st.markdown(f"""
+                <div class='equation-box'>
+                    {st.session_state.current_equation}
+                </div>
+            """, unsafe_allow_html=True)
+
+            # Training loss plot
+            loss_plot = create_loss_history_plot()
+            if loss_plot:
+                st.plotly_chart(loss_plot, use_container_width=True)
+
+        # Expandable sections for advanced features
+        with st.expander("🔬 Advanced Settings"):
+            st.markdown("### Physics Parameters")
+
+            col1, col2 = st.columns(2)
+            with col1:
+                G = st.slider("Gravitational Constant", 0.1, 5.0, 1.0, 0.1)
+                wave_freq = st.slider("Wave Frequency", 0.1, 2.0, 0.5, 0.1)
+            with col2:
+                decay_length = st.slider("Decay Length", 5.0, 20.0, 10.0, 1.0)
+                dt = st.slider("Time Step", 0.001, 0.1, 0.01, 0.001)
+
+            st.markdown("### Neural Network Architecture")
+            layers = st.number_input("Hidden Layers", 4, 12, 6)
+            neurons = st.number_input("Neurons per Layer", 32, 256, 128)
+
+            st.markdown("### Symbolic Regression")
+            populations = st.number_input("Populations", 5, 30, 15)
+            max_complexity = st.slider("Max Equation Complexity", 10, 50, 20)
+
+        with st.expander("📊 Pareto Front"):
+            st.markdown("### Discovered Equations (Accuracy vs Complexity)")
+
+            # Generate sample Pareto front data
+            pareto_data = pd.DataFrame({
+                'Complexity': [5, 8, 12, 15, 20, 25],
+                'Loss': [0.05, 0.03, 0.02, 0.015, 0.012, 0.011],
+                'Equation': [
+                    'r^(-2)',
+                    'sin(r) * r^(-2)',
+                    'sin(ωr) * r^(-2)',
+                    'sin(ωr) * exp(-r/λ) * r^(-2)',
+                    'sin(ωr) * exp(-r/λ) * r^(-2) * m1 * m2',
+                    'Complex equation with 25 nodes'
+                ]
+            })
+
+            fig = px.scatter(pareto_data, x='Complexity', y='Loss',
+                            hover_data=['Equation'], log_y=True,
+                            title="Pareto Front of Discovered Equations")
+            fig.update_traces(marker=dict(size=10, color='cyan'))
+            st.plotly_chart(fig, use_container_width=True)
+
+            st.dataframe(pareto_data)
+
+    with tab2:
+        eeg_page()
 
     # Footer
     st.markdown("---")

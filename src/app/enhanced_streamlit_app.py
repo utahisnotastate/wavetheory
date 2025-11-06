@@ -198,11 +198,11 @@ initialize_session_state()
 
 @st.cache_resource
 def load_chatbot_model():
-    """Load and cache chatbot backend (Gemini if available)."""
+    """Load and cache chatbot backend (Gemini only)."""
     try:
         from app.chatbot import get_chatbot
         generator = get_chatbot()
-        logger.info("Loaded chatbot backend (Gemini preferred, HF fallback)")
+        logger.info("Loaded chatbot backend (Gemini)")
         return generator
     except Exception as e:
         logger.error(f"Failed to initialize chatbot backend: {e}")

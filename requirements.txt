@@ -13,8 +13,6 @@ pysr==0.18.0
 sympy==1.13.2
 
 # Machine learning
-torch==2.4.1
-transformers==4.43.3
 scikit-learn==1.5.1
 pandas==2.2.2
 numpy==2.0.2
@@ -36,7 +34,6 @@ google-generativeai==0.8.3
 
 # Runtime support
 scipy==1.14.1
-sentencepiece==0.1.99
 
 # Jupyter (optional)
 jupyter==1.0.0
